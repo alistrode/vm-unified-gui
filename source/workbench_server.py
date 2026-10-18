@@ -164,6 +164,14 @@ class Handler(BaseHTTPRequestHandler):
             self.reply(200 if state else 503, state or {'error': '正在进行首次采样'})
         elif route == '/health':
             self.reply(200, {'ok': True, 'service': 'unified-workbench'})
+        elif route == '/assets/display-bridge.js':
+            body = Path(__file__).with_name('display-bridge.js').read_bytes()
+            self.send_response(200)
+            self.send_header('Content-Type', 'application/javascript; charset=utf-8')
+            self.send_header('Content-Length', str(len(body)))
+            self.send_header('Cache-Control', 'no-cache')
+            self.end_headers()
+            self.wfile.write(body)
         elif route in ('/', '/workbench.html'):
             body = Path(__file__).with_name('workbench.html').read_bytes()
             self.send_response(200)

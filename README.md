@@ -9,6 +9,8 @@
 - `source/workbench.html`：统一窗口与分块监控的控制界面；`?design=1` 是明确标识的设计预览，不执行远端操作。
 - `source/workbench_server.py`：Python 标准库实现的回环 API，采样 Ubuntu 宿主和应用容器状态，以固定白名单启动应用。
 - `source/host/Start-Workbench.ps1`、`START.cmd`：Windows 一键启动入口草稿，复用既有 VirtualBox 与项目 VM，检查硬件余量并等待 HTTP 就绪。已通过 PowerShell 语法检查；尚未在 B 机运行验收。
+- `source/display-bridge.js`：面向 Xpra HTML5 v21 的显示桥接，按容器主机元数据分组，切换布局并恢复原几何位置；尚未接入 B 机验证。
+- `source/publish_python.py`：固定哈希依赖下载、离线 wheel 安装、受限容器导入验证和共享环境原子发布；导入失败保留原环境。
 - `source/download_verified.py`：SHA-256 固定校验、已有文件复用、持续低于 800 KiB/s 的下载源切换。
 
 设计稿与局部浏览器验证在 `docs/design/`，验收清单在 `docs/acceptance.json`。`tests/` 是验证代码，不属于应用实现；第三方运行环境不冒称自有源码。
@@ -29,6 +31,6 @@ Windows VM、Ubuntu、Docker、Xpra 及原应用镜像是外部运行依赖。�
 
 ## 验证范围
 
-本地 9 项接口及下载测试通过；Windows PowerShell 启动脚本语法解析错误为 0；设计预览两种布局与各自参考图的重复截图差异为 0 像素。以上不代表真实应用窗口、容器、共享库或 B 机启动已经通过。
+本地 12 项接口、下载及发布事务测试通过，另有窗口分组与布局检查通过；Windows PowerShell 启动脚本语法解析错误为 0；设计预览两种布局与各自参考图的重复截图差异为 0 像素。以上不代表真实应用窗口、容器、共享库或 B 机启动已经通过。
 
 项目的原连接凭据、远端私钥、原始日志和真实会话资料不进入本分支。

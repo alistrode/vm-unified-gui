@@ -9,7 +9,8 @@ param(
 $ErrorActionPreference = 'Stop'
 $ProgressPreference = 'SilentlyContinue'
 [Console]::OutputEncoding = [Text.Encoding]::UTF8
-$url = 'http://127.0.0.1:48080/'
+$baseUrl = 'http://127.0.0.1:48080'
+$url = $baseUrl + '/workbench/'
 
 function Get-HostPressure {
     $os = Get-CimInstance Win32_OperatingSystem
@@ -47,7 +48,13 @@ function Get-VMState {
 function Test-Workbench {
     try {
         $response = Invoke-WebRequest -Uri $url -UseBasicParsing -TimeoutSec 5
-        return $response.StatusCode -eq 200
+        if ($response.StatusCode -ne 200) { return $false }
+        $status = Invoke-RestMethod -Uri ($baseUrl + '/api/workbench/status') -TimeoutSec 5
+        if ($status.display_ready -ne $true) { return $false }
+        $running = @($status.containers | Where-Object { $_.running -eq $true } | Select-Object -ExpandProperty id -Unique)
+        if ($running.Count -ne 3 -or @(Compare-Object @('A','B','C') $running).Count -ne 0) { return $false }
+        $sample = [DateTimeOffset]::Parse($status.sampled_at)
+        return [math]::Abs(([DateTimeOffset]::UtcNow - $sample).TotalSeconds) -lt 30
     } catch { return $false }
 }
 
@@ -65,7 +72,7 @@ if ($CheckOnly) {
     [pscustomobject]@{ vm=$VMName; state=$state.VMState; http_ready=(Test-Workbench); pressure=$pressure } | ConvertTo-Json -Depth 4
     exit 0
 }
-if ($state.VMState -in @('poweroff','aborted')) {
+if ($state.VMState -in @('poweroff','aborted','saved')) {
     $reserve = [math]::Max(2048, [int]($pressure.memory_total_mib * 0.2))
     $need = [int]$state.memory + $reserve
     if ($pressure.memory_free_mib -lt $need) {
@@ -79,8 +86,6 @@ if ($state.VMState -in @('poweroff','aborted')) {
         $pressure = Show-Pressure
     }
     Write-Host 'Starting existing VM in headless mode...'
-    Invoke-VBox @('startvm', $VMName, '--type', 'headless') | Write-Host
-} elseif ($state.VMState -eq 'saved') {
     Invoke-VBox @('startvm', $VMName, '--type', 'headless') | Write-Host
 } elseif ($state.VMState -eq 'paused') {
     Invoke-VBox @('controlvm', $VMName, 'resume') | Write-Host
