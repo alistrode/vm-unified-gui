@@ -1,0 +1,23 @@
+{
+  "status": "implementation_in_progress",
+  "project": "VM Unified GUI",
+  "target_host": "oKGTBFPZVQwi",
+  "project_root": "E:\\VM-Unified-GUI",
+  "design_basis": "Existing source/使用与验收说明.md and source/方案选型与融合设计.md",
+  "checks": [
+    {"id": "source_backup", "passed": false},
+    {"id": "vm_and_services_running", "passed": false},
+    {"id": "three_real_gui_containers", "passed": false},
+    {"id": "monitor_and_unified_layout_roundtrip", "passed": false},
+    {"id": "mouse_keyboard_persistent_state", "passed": false},
+    {"id": "shared_python_publish_verified", "passed": false},
+    {"id": "shared_dependencies_and_separate_homes", "passed": false},
+    {"id": "container_registry_real_app_launch", "passed": false},
+    {"id": "hardware_and_container_metrics", "passed": false},
+    {"id": "one_click_start", "passed": false},
+    {"id": "screenshots_against_reference", "passed": false},
+    {"id": "packaged_download_run", "passed": false}
+  ],
+  "reference_image": null,
+  "note": "Historical results are not counted as current passes. Optional display backends and unverified platform capabilities must be assessed against the complete recovered design before final acceptance."
+}
