@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Name=容器文件管理器
+Exec=/usr/bin/python3 /srv/unified/modes/desktops.py launch c files
+Icon=system-file-manager
+Categories=Utility;
+Terminal=false

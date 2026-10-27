@@ -20,6 +20,7 @@ description: 当前真机部署、补丁与有效维护命令索引；先遵守�
 
 | 文件 | 用途 |
 | --- | --- |
+| [maintenance/read-current-project.py](../../../maintenance/read-current-project.py) | 在指定 VM 内只读导出当前模式源码、网页、nginx 和项目服务，不读取凭据 |
 | [source/modes/controller.py](../../../source/modes/controller.py) | 选择模式与管理统一桌面窗口 |
 | [source/modes/desktops.py](../../../source/modes/desktops.py) | 三个独立原生 Xfce 会话与容器应用启动 |
 | [source/modes/index.html](../../../source/modes/index.html) | 三桌面同屏、失败重连、点击后的键盘焦点切换、原启动器兼容 |
@@ -66,3 +67,7 @@ description: 当前真机部署、补丁与有效维护命令索引；先遵守�
 | [deployment/current/rootfs/srv/unified/verify.sh](../../../deployment/current/rootfs/srv/unified/verify.sh) | 原机实际系统脚本；诊断/验收须先获批准 |
 
 临时的路径隔离、自动重连、焦点、心跳与窗口缩放修改，已分别归入上表当前源文件；未保留会覆盖新实现的过时编辑脚本。无效试验、缓存、口令、私钥和认证 cookie 不上传。
+
+## 本次仓库清理
+
+已移除未部署到 B 机的旧网页工作台、旧 /workbench/ 启动器及其测试、模拟验证图片和记录、旧源码 ZIP。当前入口保持 B 机原启动器与 source/modes。ZIP 与展开的源码、配置、显示资源和维护文件同步发布。采集脚本只记录项目所需依赖，不采集整机软件清单或机器唯一标识。

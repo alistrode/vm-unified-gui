@@ -35,19 +35,17 @@ for p in (root/'state/sharedkit-src').rglob('*'):
 metadata={}
 def cmd(args):return subprocess.check_output(args,text=True,timeout=30).strip()
 metadata['os_release']=Path('/etc/os-release').read_text()
-metadata['kernel']=cmd(['uname','-r'])
 electron=root/'console/electron'
 if electron.exists():
  version=(electron/'version').read_text().strip() if (electron/'version').exists() else 'unknown'
  metadata['external_electron']={'version':version,'official_download':'https://github.com/electron/electron/releases/download/v'+version+'/electron-v'+version+'-linux-x64.zip','files':[{'path':str(p.relative_to(electron)),'size':p.stat().st_size,'sha256':hashlib.sha256(p.read_bytes()).hexdigest()} for p in sorted(electron.rglob('*')) if p.is_file()]}
  for name in ['LICENSE','version']:add(electron/name)
-metadata['packages']=cmd(['dpkg-query','-W','-f=${binary:Package}\t${Version}\t${Architecture}\n'])
+metadata['project_runtime_packages']=cmd(['dpkg-query','-W','-f=${binary:Package}\t${Version}\t${Architecture}\n',*['adwaita-icon-theme', 'docker-compose-v2', 'docker.io', 'fonts-dejavu-core', 'nginx', 'nginx-common', 'python3', 'python3-dbus', 'python3-gi', 'thunar', 'x11-utils', 'x11-xserver-utils', 'xauth', 'xclip', 'xcvt', 'xdotool', 'xfce4', 'xfce4-panel', 'xfce4-session', 'xfce4-settings', 'xfdesktop4', 'xfwm4', 'xpra', 'xpra-html5', 'xpra-x11', 'xserver-xorg-core', 'xserver-xorg-video-dummy', 'xvfb']])
 metadata['containers']=[]
 for cid in 'abc':
  raw=json.loads(cmd(['docker','inspect','unified-'+cid]))[0]
  image=json.loads(cmd(['docker','image','inspect',raw['Image']]))[0]
- metadata['containers'].append({'name':raw['Name'],'id':raw['Id'],'hostname':raw['Config']['Hostname'],'image_id':raw['Image'],'repo_tags':image.get('RepoTags'),'repo_digests':image.get('RepoDigests'),'mounts':[{'source':x['Source'],'destination':x['Destination'],'read_write':x['RW']} for x in raw['Mounts']],'application_packages':cmd(['docker','exec','unified-'+cid,'dpkg-query','-W','-f=${binary:Package}\t${Version}\t${Architecture}\n'])})
-metadata['image_history']=cmd(['docker','history','--no-trunc','--format','{{.CreatedBy}}','unified-real-apps:24.04'])
+ metadata['containers'].append({'name':raw['Name'],'hostname':raw['Config']['Hostname'],'image_id':raw['Image'],'repo_tags':image.get('RepoTags'),'repo_digests':image.get('RepoDigests'),'mounts':[{'source':x['Source'],'destination':x['Destination'],'read_write':x['RW']} for x in raw['Mounts']],'application_packages':cmd(['docker','exec','unified-'+cid,'dpkg-query','-W','-f=${binary:Package}\t${Version}\t${Architecture}\n'])})
 metadata['effective_units']={}
 for name in ['unified-display','unified-apps','unified-status','unified-modes','unified-mode-status','unified-desktop-a','unified-desktop-b','unified-desktop-c']:
  metadata['effective_units'][name]=cmd(['systemctl','cat',name])

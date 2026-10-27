@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Name=容器编辑器
+Exec=/usr/bin/python3 /srv/unified/modes/desktops.py launch a editor
+Icon=accessories-text-editor
+Categories=Utility;
+Terminal=false

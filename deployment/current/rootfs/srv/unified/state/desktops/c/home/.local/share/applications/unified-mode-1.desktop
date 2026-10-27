@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Name=模式1
+Exec=env DISPLAY=:100 XAUTHORITY=/srv/unified/state/auth/host /usr/bin/python3 /srv/unified/modes/controller.py mode 1
+Icon=preferences-desktop-display
+Categories=Utility;
+Terminal=false

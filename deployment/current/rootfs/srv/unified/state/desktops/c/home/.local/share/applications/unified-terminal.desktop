@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Name=容器终端
+Exec=/usr/bin/python3 /srv/unified/modes/desktops.py launch c terminal
+Icon=utilities-terminal
+Categories=Utility;
+Terminal=false
