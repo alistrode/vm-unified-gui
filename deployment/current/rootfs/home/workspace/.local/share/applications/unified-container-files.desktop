@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Name=容器文件管理器
+Exec=/usr/bin/python3 /srv/unified/modes/controller.py launch auto files
+Icon=org.xfce.filemanager
+Categories=Utility;
+Terminal=false

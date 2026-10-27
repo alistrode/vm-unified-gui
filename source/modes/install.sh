@@ -10,13 +10,14 @@ tar -czf "$backup" /etc/systemd/system/unified-display.service /etc/systemd/syst
 chmod 600 "$backup"
 install -d -o workspace -g workspace /srv/unified/modes /home/workspace/.local/share/applications
 if [ "$source_dir" != /srv/unified/modes ]; then
- for file in controller.py native_core.py desktops.py install-desktops.py prepare-desktop-auth.sh native-integration.py status_server.py index.html patch_xpra.py patch_html5.py README.md install.sh; do
+ for file in controller.py native_core.py desktops.py install-desktops.py prepare-desktop-auth.sh native-integration.py status_server.py index.html patch_xpra.py patch_html5.py patch_html5_ping.py README.md install.sh; do
   install -m 644 "$source_dir/$file" "/srv/unified/modes/$file.next"
   mv -f "/srv/unified/modes/$file.next" "/srv/unified/modes/$file"
  done
 fi
 chown -R workspace:workspace /srv/unified/modes
 python3 /srv/unified/modes/patch_xpra.py
+python3 /srv/unified/modes/patch_html5_ping.py
 python3 /srv/unified/modes/patch_html5.py
 python3 /srv/unified/modes/install-desktops.py
 python3 - <<'PY'

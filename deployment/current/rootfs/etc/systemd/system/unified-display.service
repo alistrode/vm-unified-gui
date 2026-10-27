@@ -1,0 +1,16 @@
+[Unit]
+Description=One shared full XFCE desktop outside application containers
+After=network.target
+[Service]
+User=workspace
+Environment=HOME=/home/workspace
+Environment=XAUTHORITY=/srv/unified/state/auth/host
+ExecStart=/usr/bin/xpra start-desktop :100 --daemon=no --bind-tcp=127.0.0.1:8081 --sharing=yes --html=/usr/share/xpra/www --resize-display=1280x800 --xvfb="/usr/lib/xorg/Xorg -noreset -nolisten tcp -config /srv/unified/xorg-shared.conf -logfile /srv/unified/state/xorg-shared.log +extension RANDR +extension RENDER" --start-child="dbus-run-session xfce4-session" --mdns=no --pulseaudio=no --webcam=no --printing=no --notifications=no --exit-with-children=no
+ExecStartPost=/bin/bash /srv/unified/prepare-auth.sh
+Restart=on-failure
+RestartSec=5
+Nice=5
+MemoryMax=1536M
+CPUQuota=75%
+[Install]
+WantedBy=multi-user.target

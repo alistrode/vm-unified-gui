@@ -79,6 +79,15 @@ for index,cid in enumerate('abc',101):
  marker='location /desktop/'+cid+'/'
  if marker not in text:
   i=text.rfind('}');text=text[:i]+f' {marker} {{ proxy_pass http://127.0.0.1:{8000+index}/; proxy_http_version 1.1; proxy_set_header Upgrade $http_upgrade; proxy_set_header Connection "upgrade"; proxy_read_timeout 3600s; }}\n'+text[i:]
+# Separate URL paths isolate the stock client's per-path session storage.
+# Static assets remain shared so three frames do not download three copies.
+for cid in 'abc':
+ marker='location /desktop/'+cid+'/'
+ start=text.index(marker);end=text.index('}',start)
+ block=text[start:end]
+ if 'sub_filter' not in block:
+  block+=' proxy_set_header Accept-Encoding ""; sub_filter \'<head>\' \'<head><base href="/display/">\'; sub_filter_once on; '
+  text=text[:start]+block+text[end:]
 for folder in ['js','css','icons','images','fonts']:
  marker='location /display/'+folder+'/'
  if marker not in text:

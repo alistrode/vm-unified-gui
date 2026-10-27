@@ -1,0 +1,22 @@
+server {
+ listen 8080;
+ root /srv/unified/web;
+ location / { try_files $uri $uri/ /index.html; }
+ location /display/ {
+  proxy_pass http://127.0.0.1:8081/;
+  proxy_http_version 1.1;
+  proxy_set_header Upgrade $http_upgrade;
+  proxy_set_header Connection "upgrade";
+  proxy_read_timeout 3600s;
+ }
+ location /api/ { proxy_set_header Host $http_host; proxy_pass http://127.0.0.1:8090; }
+ location = /api/mode { proxy_set_header Host $http_host; proxy_pass http://127.0.0.1:8091; }
+ location /desktop/a/ { proxy_pass http://127.0.0.1:8101/; proxy_http_version 1.1; proxy_set_header Upgrade $http_upgrade; proxy_set_header Connection "upgrade"; proxy_read_timeout 3600s;  proxy_set_header Accept-Encoding ""; sub_filter '<head>' '<head><base href="/display/">'; sub_filter_once on; }
+ location /desktop/b/ { proxy_pass http://127.0.0.1:8102/; proxy_http_version 1.1; proxy_set_header Upgrade $http_upgrade; proxy_set_header Connection "upgrade"; proxy_read_timeout 3600s;  proxy_set_header Accept-Encoding ""; sub_filter '<head>' '<head><base href="/display/">'; sub_filter_once on; }
+ location /desktop/c/ { proxy_pass http://127.0.0.1:8103/; proxy_http_version 1.1; proxy_set_header Upgrade $http_upgrade; proxy_set_header Connection "upgrade"; proxy_read_timeout 3600s;  proxy_set_header Accept-Encoding ""; sub_filter '<head>' '<head><base href="/display/">'; sub_filter_once on; }
+ location /display/js/ { alias /usr/share/xpra/www/js/; gzip_static on; expires 1h; }
+ location /display/css/ { alias /usr/share/xpra/www/css/; gzip_static on; expires 1h; }
+ location /display/icons/ { alias /usr/share/xpra/www/icons/; gzip_static on; expires 1h; }
+ location /display/images/ { alias /usr/share/xpra/www/images/; gzip_static on; expires 1h; }
+ location /display/fonts/ { alias /usr/share/xpra/www/fonts/; gzip_static on; expires 1h; }
+}

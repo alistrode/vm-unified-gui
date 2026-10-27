@@ -1,0 +1,24 @@
+x-common: &common
+  image: unified-real-apps:24.04
+  user: "1000:1000"
+  restart: unless-stopped
+  cap_drop: [ALL]
+  security_opt: [no-new-privileges:true]
+  read_only: true
+  tmpfs: [/tmp]
+  environment: &env
+    DISPLAY: :100
+    XAUTHORITY: /run/auth/container
+    PYTHONPATH: /opt/shared-user/python
+    PATH: /usr/local/bin:/usr/bin:/bin
+  volumes:
+    - /tmp/.X11-unix:/tmp/.X11-unix:ro
+    - /srv/unified/state/auth:/run/auth:ro
+    - /srv/unified/shared/user:/opt/shared-user:ro
+    - /srv/unified/shared/cache:/opt/shared-cache
+    - /srv/unified/state/homes:/homes
+  command: [sleep, infinity]
+services:
+  a: {<<: *common, container_name: unified-a, environment: {<<: *env, CONTAINER_ID: A, HOME: /homes/a}}
+  b: {<<: *common, container_name: unified-b, environment: {<<: *env, CONTAINER_ID: B, HOME: /homes/b}}
+  c: {<<: *common, container_name: unified-c, environment: {<<: *env, CONTAINER_ID: C, HOME: /homes/c}}

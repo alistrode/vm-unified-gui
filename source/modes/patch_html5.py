@@ -12,6 +12,10 @@ if marker not in s:
 if 'window.client=client;' not in s:
  if s.count(old)!=1:raise RuntimeError('Unrecognized HTML5 initializer; no changes applied')
  s=s.replace(old,old+' window.client=client;');changed=True
+if 'js/Client.js?unified-ping-grace=1' not in s:
+ old_client='src="js/Client.js"'
+ if s.count(old_client)!=1:raise RuntimeError('Unrecognized HTML5 client script; no changes applied')
+ s=s.replace(old_client,'src="js/Client.js?unified-ping-grace=1"');changed=True
 if changed:
  stamp=datetime.datetime.now(datetime.timezone.utc).strftime('%Y%m%d_%H%M%S_%f')
  backup=Path('/srv/unified/backups')/('html5-index-'+stamp+'.html')

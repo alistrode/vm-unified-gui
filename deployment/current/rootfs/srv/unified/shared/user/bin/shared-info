@@ -1,0 +1,2 @@
+#!/bin/sh
+exec python3 -c "import sharedkit; print(sharedkit.VERSION, sharedkit.__file__)"

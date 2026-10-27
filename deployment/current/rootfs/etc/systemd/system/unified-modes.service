@@ -1,0 +1,17 @@
+[Unit]
+Description=Independent host desktops and original unified desktop
+After=unified-display.service unified-apps.service unified-desktop-a.service unified-desktop-b.service unified-desktop-c.service
+Requires=unified-display.service unified-apps.service
+Wants=unified-desktop-a.service unified-desktop-b.service unified-desktop-c.service
+[Service]
+Type=oneshot
+User=workspace
+Environment=DISPLAY=:100
+Environment=XAUTHORITY=/srv/unified/state/auth/host
+ExecStart=/usr/bin/python3 /srv/unified/modes/controller.py start
+RemainAfterExit=yes
+TimeoutStartSec=180
+Restart=on-failure
+RestartSec=5
+[Install]
+WantedBy=multi-user.target

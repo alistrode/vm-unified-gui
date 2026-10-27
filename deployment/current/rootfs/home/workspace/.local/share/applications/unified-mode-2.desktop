@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Name=模式二：统一完整桌面
+Exec=/usr/bin/python3 /srv/unified/modes/controller.py mode 2
+Icon=preferences-desktop-display
+Categories=Utility;
+Terminal=false

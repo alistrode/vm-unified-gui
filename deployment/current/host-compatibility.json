@@ -1,0 +1,27 @@
+{
+  "host_os": "Windows 10 Pro 22H2",
+  "vm_name": "Ubuntu-MultiContainer-GUI",
+  "guest_os": "Ubuntu 24.04.3",
+  "guest_user": "workspace",
+  "guest_uid": 1000,
+  "project_path_windows": "E:\\VM-Unified-GUI",
+  "project_path_guest": "/srv/unified",
+  "nat_mappings": {
+    "45625": "22/tcp SSH",
+    "48080": "8080/tcp nginx",
+    "48081": "8081/tcp original Xpra"
+  },
+  "desktop_xpra_loopback_ports": [
+    8101,
+    8102,
+    8103
+  ],
+  "credential_files_external": [
+    "E:\\VM-Unified-GUI\\guest-password.txt",
+    "/srv/unified/state/auth"
+  ],
+  "virtualbox_version": "7.2.16r174877",
+  "edge_version": "156.0.4314.42",
+  "windows_python_version": "3.14.2",
+  "paramiko_version": "5.0.0"
+}

@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Name=容器终端
+Exec=/usr/bin/python3 /srv/unified/modes/controller.py launch auto terminal
+Icon=org.xfce.terminal
+Categories=Utility;
+Terminal=false

@@ -1,0 +1,8 @@
+{
+  "reason": "Preserve the actual Windows launcher contract: id=\"display\" identifies the real desktop display body. No Windows host files are modified.",
+  "files": [
+    "srv/unified/modes/index.html",
+    "srv/unified/web/index.html"
+  ],
+  "sha256": "86268652aef1b1d6d43e2a4b6bdbd373fa54c2c07c7bdf06ff921a41b294fb72"
+}

@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Name=模式一：三个完整桌面区域
+Exec=/usr/bin/python3 /srv/unified/modes/controller.py mode 1
+Icon=preferences-desktop-display
+Categories=Utility;
+Terminal=false

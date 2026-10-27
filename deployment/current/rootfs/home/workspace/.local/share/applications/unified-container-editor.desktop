@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Name=容器编辑器
+Exec=/usr/bin/python3 /srv/unified/modes/controller.py launch auto editor
+Icon=org.xfce.mousepad
+Categories=Utility;
+Terminal=false

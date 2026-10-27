@@ -1,0 +1,3186 @@
+[
+  {
+    "path": "etc/nginx/sites-available/unified",
+    "sha256": "4ee75813297726f54015df865fc0cbd82d106aa80ea4d397d0cf73f5c283e22d",
+    "size": 1835,
+    "mode": "0o644",
+    "uid": 0,
+    "gid": 0
+  },
+  {
+    "path": "etc/systemd/system/unified-apps.service",
+    "sha256": "d77fb52f6b9be1dc29677e56621b23bcbcc98043eef16fce5adcd850ad86ea11",
+    "size": 343,
+    "mode": "0o644",
+    "uid": 0,
+    "gid": 0
+  },
+  {
+    "path": "etc/systemd/system/unified-desktop-a.service",
+    "sha256": "4a90d10cada90631f01bc6ca6e3d297360a1dc780e66e71af3780171455a3453",
+    "size": 1423,
+    "mode": "0o644",
+    "uid": 0,
+    "gid": 0
+  },
+  {
+    "path": "etc/systemd/system/unified-desktop-b.service",
+    "sha256": "793f847ba3a501f11f64dca926325f01ac803b962d330f82c03c560384cb26f0",
+    "size": 1423,
+    "mode": "0o644",
+    "uid": 0,
+    "gid": 0
+  },
+  {
+    "path": "etc/systemd/system/unified-desktop-c.service",
+    "sha256": "67d43dafa2f3be2b3f0bab1cf87e79e1a24e1a3ba53236bba14ef579057d7f56",
+    "size": 1423,
+    "mode": "0o644",
+    "uid": 0,
+    "gid": 0
+  },
+  {
+    "path": "etc/systemd/system/unified-display.service",
+    "sha256": "1f401ec8dcc43c61aec4f8d5e34e32bf23f8befd1da24d4ef40a1036931a7390",
+    "size": 826,
+    "mode": "0o644",
+    "uid": 0,
+    "gid": 0
+  },
+  {
+    "path": "etc/systemd/system/unified-display.service.d/modes.conf",
+    "sha256": "4749089676311e393aaf3fbf7f8ab3b4dd4a393241e993a6133f452400ad1589",
+    "size": 746,
+    "mode": "0o644",
+    "uid": 0,
+    "gid": 0
+  },
+  {
+    "path": "etc/systemd/system/unified-mode-status.service",
+    "sha256": "6290208bcbc0ae29171550c9fec734ced101d3b4580572abd0e301c6f3ddb88d",
+    "size": 233,
+    "mode": "0o644",
+    "uid": 0,
+    "gid": 0
+  },
+  {
+    "path": "etc/systemd/system/unified-modes.service",
+    "sha256": "89f2126977e3f4a790c86a310ea9258569fe38accca4d0a5e3f9d9f0af48ba6e",
+    "size": 630,
+    "mode": "0o644",
+    "uid": 0,
+    "gid": 0
+  },
+  {
+    "path": "etc/systemd/system/unified-status.service",
+    "sha256": "68bd1f97626393abd129f1e8465c61b4dbb5c7f72cc7d6c190a0b907dd355bfa",
+    "size": 238,
+    "mode": "0o644",
+    "uid": 0,
+    "gid": 0
+  },
+  {
+    "path": "home/workspace/.config/xfce4/desktop/icons.screen.latest.rc",
+    "sha256": "0ea0853b6a6392b135984b42098ed497a3140d02fe9571b8e99ed81db3fe9220",
+    "size": 104,
+    "mode": "0o644",
+    "uid": 1000,
+    "gid": 1000
+  },
+  {
+    "path": "home/workspace/.config/xfce4/desktop/icons.screen0-1264x708.rc",
+    "sha256": "0ea0853b6a6392b135984b42098ed497a3140d02fe9571b8e99ed81db3fe9220",
+    "size": 104,
+    "mode": "0o644",
+    "uid": 1000,
+    "gid": 1000
+  },
+  {
+    "path": "home/workspace/.config/xfce4/desktop/icons.screen0-1264x757.rc",
+    "sha256": "0ea0853b6a6392b135984b42098ed497a3140d02fe9571b8e99ed81db3fe9220",
+    "size": 104,
+    "mode": "0o644",
+    "uid": 1000,
+    "gid": 1000
+  },
+  {
+    "path": "home/workspace/.config/xfce4/desktop/icons.screen0-1264x784.rc",
+    "sha256": "0ea0853b6a6392b135984b42098ed497a3140d02fe9571b8e99ed81db3fe9220",
+    "size": 104,
+    "mode": "0o644",
+    "uid": 1000,
+    "gid": 1000
+  },
+  {
+    "path": "home/workspace/.config/xfce4/desktop/icons.screen0-2384x1408.rc",
+    "sha256": "0ea0853b6a6392b135984b42098ed497a3140d02fe9571b8e99ed81db3fe9220",
+    "size": 104,
+    "mode": "0o644",
+    "uid": 1000,
+    "gid": 1000
+  },
+  {
+    "path": "home/workspace/.config/xfce4/desktop/icons.screen0-3824x2308.rc",
+    "sha256": "0ea0853b6a6392b135984b42098ed497a3140d02fe9571b8e99ed81db3fe9220",
+    "size": 104,
+    "mode": "0o644",
+    "uid": 1000,
+    "gid": 1000
+  },
+  {
+    "path": "home/workspace/.config/xfce4/desktop/icons.screen0-3824x708.rc",
+    "sha256": "0ea0853b6a6392b135984b42098ed497a3140d02fe9571b8e99ed81db3fe9220",
+    "size": 104,
+    "mode": "0o644",
+    "uid": 1000,
+    "gid": 1000
+  },
+  {
+    "path": "home/workspace/.config/xfce4/desktop/icons.screen0-3824x757.rc",
+    "sha256": "0ea0853b6a6392b135984b42098ed497a3140d02fe9571b8e99ed81db3fe9220",
+    "size": 104,
+    "mode": "0o644",
+    "uid": 1000,
+    "gid": 1000
+  },
+  {
+    "path": "home/workspace/.config/xfce4/desktop/icons.screen0-3824x784.rc",
+    "sha256": "0ea0853b6a6392b135984b42098ed497a3140d02fe9571b8e99ed81db3fe9220",
+    "size": 104,
+    "mode": "0o644",
+    "uid": 1000,
+    "gid": 1000
+  },
+  {
+    "path": "home/workspace/.config/xfce4/panel/launcher-117/17917368091.desktop",
+    "sha256": "17be9f527f396ad68c378b0d4842c5464c4a6c6131d3a15fbfa56a368092cbb1",
+    "size": 399,
+    "mode": "0o644",
+    "uid": 1000,
+    "gid": 1000
+  },
+  {
+    "path": "home/workspace/.config/xfce4/panel/launcher-118/17917368102.desktop",
+    "sha256": "9ddfe337d5569e31b46ab5e7102b41006f84e1a8daaaee1729d407a415bdd1ec",
+    "size": 439,
+    "mode": "0o644",
+    "uid": 1000,
+    "gid": 1000
+  },
+  {
+    "path": "home/workspace/.config/xfce4/panel/launcher-119/17917368103.desktop",
+    "sha256": "8366e711fc02b6f770f0ce33fabe066709d41e3f3ba11c100168b1eb9d87979d",
+    "size": 398,
+    "mode": "0o644",
+    "uid": 1000,
+    "gid": 1000
+  },
+  {
+    "path": "home/workspace/.config/xfce4/panel/launcher-120/17917368104.desktop",
+    "sha256": "599acdd2e0a085382d09c20fd6f598c94652194a964701b757c8aca154248e39",
+    "size": 347,
+    "mode": "0o644",
+    "uid": 1000,
+    "gid": 1000
+  },
+  {
+    "path": "home/workspace/.config/xfce4/panel/launcher-17/17917368091.desktop",
+    "sha256": "17be9f527f396ad68c378b0d4842c5464c4a6c6131d3a15fbfa56a368092cbb1",
+    "size": 399,
+    "mode": "0o644",
+    "uid": 1000,
+    "gid": 1000
+  },
+  {
+    "path": "home/workspace/.config/xfce4/panel/launcher-18/17917368102.desktop",
+    "sha256": "9ddfe337d5569e31b46ab5e7102b41006f84e1a8daaaee1729d407a415bdd1ec",
+    "size": 439,
+    "mode": "0o644",
+    "uid": 1000,
+    "gid": 1000
+  },
+  {
+    "path": "home/workspace/.config/xfce4/panel/launcher-19/17917368103.desktop",
+    "sha256": "8366e711fc02b6f770f0ce33fabe066709d41e3f3ba11c100168b1eb9d87979d",
+    "size": 398,
+    "mode": "0o644",
+    "uid": 1000,
+    "gid": 1000
+  },
+  {
+    "path": "home/workspace/.config/xfce4/panel/launcher-20/17917368104.desktop",
+    "sha256": "599acdd2e0a085382d09c20fd6f598c94652194a964701b757c8aca154248e39",
+    "size": 347,
+    "mode": "0o644",
+    "uid": 1000,
+    "gid": 1000
+  },
+  {
+    "path": "home/workspace/.config/xfce4/panel/launcher-217/17917368091.desktop",
+    "sha256": "17be9f527f396ad68c378b0d4842c5464c4a6c6131d3a15fbfa56a368092cbb1",
+    "size": 399,
+    "mode": "0o644",
+    "uid": 1000,
+    "gid": 1000
+  },
+  {
+    "path": "home/workspace/.config/xfce4/panel/launcher-218/17917368102.desktop",
+    "sha256": "9ddfe337d5569e31b46ab5e7102b41006f84e1a8daaaee1729d407a415bdd1ec",
+    "size": 439,
+    "mode": "0o644",
+    "uid": 1000,
+    "gid": 1000
+  },
+  {
+    "path": "home/workspace/.config/xfce4/panel/launcher-219/17917368103.desktop",
+    "sha256": "8366e711fc02b6f770f0ce33fabe066709d41e3f3ba11c100168b1eb9d87979d",
+    "size": 398,
+    "mode": "0o644",
+    "uid": 1000,
+    "gid": 1000
+  },
+  {
+    "path": "home/workspace/.config/xfce4/panel/launcher-220/17917368104.desktop",
+    "sha256": "599acdd2e0a085382d09c20fd6f598c94652194a964701b757c8aca154248e39",
+    "size": 347,
+    "mode": "0o644",
+    "uid": 1000,
+    "gid": 1000
+  },
+  {
+    "path": "home/workspace/.config/xfce4/xfconf/xfce-perchannel-xml/displays.xml",
+    "sha256": "24fdc6b6096a6c1e185e9ac5843cc50e82b24573162ed53251b33216073e2360",
+    "size": 5236,
+    "mode": "0o644",
+    "uid": 1000,
+    "gid": 1000
+  },
+  {
+    "path": "home/workspace/.config/xfce4/xfconf/xfce-perchannel-xml/thunar.xml",
+    "sha256": "09dd5a20b07702db509066cc55d00e2b0a45a9c08adae4359ed24270944cfc05",
+    "size": 157,
+    "mode": "0o644",
+    "uid": 1000,
+    "gid": 1000
+  },
+  {
+    "path": "home/workspace/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-appfinder.xml",
+    "sha256": "5b8da7495302bb148b7ff3a2e8b49af06e39eaa4f2c9543a57253d89376edb54",
+    "size": 329,
+    "mode": "0o644",
+    "uid": 1000,
+    "gid": 1000
+  },
+  {
+    "path": "home/workspace/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-desktop.xml",
+    "sha256": "6366649dbf46d1bc752b29cd4a5ab356eeeac8e8b68e7494ad4b63f4ed1da646",
+    "size": 5286,
+    "mode": "0o644",
+    "uid": 1000,
+    "gid": 1000
+  },
+  {
+    "path": "home/workspace/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-keyboard-shortcuts.xml",
+    "sha256": "39cb8ebab78dd848bfdf2e28fa11e61d1d2c80aad2ba0d559caa21cd2339b08b",
+    "size": 13312,
+    "mode": "0o644",
+    "uid": 1000,
+    "gid": 1000
+  },
+  {
+    "path": "home/workspace/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-panel.xml",
+    "sha256": "4c8e8f606b31cec408e767cbc6dba80de67b384cb1be10edd9df36b8ddde46e8",
+    "size": 13373,
+    "mode": "0o644",
+    "uid": 1000,
+    "gid": 1000
+  },
+  {
+    "path": "home/workspace/.config/xfce4/xfconf/xfce-perchannel-xml/xfwm4.xml",
+    "sha256": "ac086461714ac228ab3abbedb5dc5f222d82d4daea08aefb090f25cf9683aad7",
+    "size": 5436,
+    "mode": "0o664",
+    "uid": 1000,
+    "gid": 1000
+  },
+  {
+    "path": "home/workspace/.local/share/applications/unified-container-editor.desktop",
+    "sha256": "f710c47a580b61f2fe2bb3b8f6a03a4c9643c62ef291b71bdecaa053b2fc8496",
+    "size": 186,
+    "mode": "0o644",
+    "uid": 1000,
+    "gid": 1000
+  },
+  {
+    "path": "home/workspace/.local/share/applications/unified-container-files.desktop",
+    "sha256": "c776bad027a080fa3cdcc915104da5325baa3b5944cbd184d801fd84003e5b9b",
+    "size": 194,
+    "mode": "0o644",
+    "uid": 1000,
+    "gid": 1000
+  },
+  {
+    "path": "home/workspace/.local/share/applications/unified-container-terminal.desktop",
+    "sha256": "263b4d1604df52bc9895ec373bec9cbf4f61172073a497a4a687349531a46c74",
+    "size": 185,
+    "mode": "0o644",
+    "uid": 1000,
+    "gid": 1000
+  },
+  {
+    "path": "home/workspace/.local/share/applications/unified-mode-1.desktop",
+    "sha256": "a8a934da96fa347db6ce55ce479d5c0ca79afd6b0e75f7c69be78fac8c36c040",
+    "size": 205,
+    "mode": "0o644",
+    "uid": 1000,
+    "gid": 1000
+  },
+  {
+    "path": "home/workspace/.local/share/applications/unified-mode-2.desktop",
+    "sha256": "91806854294e837a95da09fa7f37da637cb8e418460dad63ba7bf21d1f68358d",
+    "size": 199,
+    "mode": "0o644",
+    "uid": 1000,
+    "gid": 1000
+  },
+  {
+    "path": "srv/unified/compose.yaml",
+    "sha256": "451dc1f0add058d73a6a70000e9a1dcb1c76af170d1b529c8df40629ecc167dc",
+    "size": 926,
+    "mode": "0o644",
+    "uid": 0,
+    "gid": 0
+  },
+  {
+    "path": "srv/unified/console/electron/LICENSE",
+    "sha256": "5154e165bd6c2cc0cfbcd8916498c7abab0497923bafcd5cb07673fe8480087d",
+    "size": 1096,
+    "mode": "0o644",
+    "uid": 0,
+    "gid": 0
+  },
+  {
+    "path": "srv/unified/console/electron/version",
+    "sha256": "ea211af86632a4f224220e398e4b388f25be9a64b5391eccc22837df49a82769",
+    "size": 6,
+    "mode": "0o644",
+    "uid": 0,
+    "gid": 0
+  },
+  {
+    "path": "srv/unified/console/package.json",
+    "sha256": "ba8704f81f0b5099cbac8a09e841edab11da088ddeac015ff14dc51301e642b8",
+    "size": 62,
+    "mode": "0o644",
+    "uid": 0,
+    "gid": 0
+  },
+  {
+    "path": "srv/unified/modes/README.md",
+    "sha256": "e2de2ea705632308caa1a83f5e313f2f7810142ccce9994160f90daa00e7c77d",
+    "size": 3823,
+    "mode": "0o644",
+    "uid": 1000,
+    "gid": 1000
+  },
+  {
+    "path": "srv/unified/modes/controller.py",
+    "sha256": "60f98440aee16ac84956cdf2d5e9f5eb742397c0a30484675b3dbd790ce772f2",
+    "size": 3956,
+    "mode": "0o644",
+    "uid": 1000,
+    "gid": 1000
+  },
+  {
+    "path": "srv/unified/modes/desktops.py",
+    "sha256": "e2592c4ba8c3a7a2148697475e3997690e43577f95878f5d27536ccf8c30add0",
+    "size": 4010,
+    "mode": "0o644",
+    "uid": 1000,
+    "gid": 1000
+  },
+  {
+    "path": "srv/unified/modes/index.html",
+    "sha256": "86268652aef1b1d6d43e2a4b6bdbd373fa54c2c07c7bdf06ff921a41b294fb72",
+    "size": 2878,
+    "mode": "0o644",
+    "uid": 1000,
+    "gid": 1000
+  },
+  {
+    "path": "srv/unified/modes/install-desktops.py",
+    "sha256": "8b3d5ccfad0efde46bfcbfdb95ef958bf0013b4ba80f0b9418487b4c832f728a",
+    "size": 6637,
+    "mode": "0o644",
+    "uid": 1000,
+    "gid": 1000
+  },
+  {
+    "path": "srv/unified/modes/install.sh",
+    "sha256": "51ba95dee031a9b41ecab06a4396cdae154f8eadfad7236f3c7a7238be0cbc20",
+    "size": 4733,
+    "mode": "0o644",
+    "uid": 1000,
+    "gid": 1000
+  },
+  {
+    "path": "srv/unified/modes/native-integration.py",
+    "sha256": "7045c545542b688fd58d22f27ac1badf1f2b230c09c4f562813cec257ad119ca",
+    "size": 1249,
+    "mode": "0o644",
+    "uid": 1000,
+    "gid": 1000
+  },
+  {
+    "path": "srv/unified/modes/native_core.py",
+    "sha256": "c2347adac15d69fdf700ec95c945899ad98bc180826e791286387af155de3b32",
+    "size": 3114,
+    "mode": "0o644",
+    "uid": 1000,
+    "gid": 1000
+  },
+  {
+    "path": "srv/unified/modes/patch_html5.py",
+    "sha256": "a4a28ec882f592c1aeb8512b51115d774d68e3a9a0fb76b1427ad30d2dab2cef",
+    "size": 1797,
+    "mode": "0o644",
+    "uid": 1000,
+    "gid": 1000
+  },
+  {
+    "path": "srv/unified/modes/patch_html5_ping.py",
+    "sha256": "97e143b1138061890e2c1aeb7bbc20df3527ad4c04357e6e53d7a7e0888c0c4a",
+    "size": 1322,
+    "mode": "0o644",
+    "uid": 1000,
+    "gid": 1000
+  },
+  {
+    "path": "srv/unified/modes/patch_xpra.py",
+    "sha256": "029ac84b57ee736aa577f0e5ebbb85662a2fc6eede1d6ceb74789c6ad934f29f",
+    "size": 1371,
+    "mode": "0o644",
+    "uid": 1000,
+    "gid": 1000
+  },
+  {
+    "path": "srv/unified/modes/prepare-desktop-auth.sh",
+    "sha256": "29febe6d217f6a6382b28a6262b2cfa960a9e9ade43a685436b305bdba028de6",
+    "size": 508,
+    "mode": "0o644",
+    "uid": 1000,
+    "gid": 1000
+  },
+  {
+    "path": "srv/unified/modes/shortcuts.json",
+    "sha256": "10264fa78f323237c8f5fd91b9097ba66e661d2b23f312a036ad94c10a8d10f4",
+    "size": 42,
+    "mode": "0o644",
+    "uid": 1000,
+    "gid": 1000
+  },
+  {
+    "path": "srv/unified/modes/status_server.py",
+    "sha256": "55dee335cf03e4c23c19f0774cb16d623782f97dc138e8b912af8ebfb6f9ce9b",
+    "size": 2124,
+    "mode": "0o644",
+    "uid": 1000,
+    "gid": 1000
+  },
+  {
+    "path": "srv/unified/prepare-auth.sh",
+    "sha256": "a3d61c80c537c87dfba90c508f8d9ff5dfde11f3032884d9129dcd06508d2677",
+    "size": 516,
+    "mode": "0o644",
+    "uid": 0,
+    "gid": 0
+  },
+  {
+    "path": "srv/unified/publish-python.sh",
+    "sha256": "f9a7ec0eddae3fc546b0e8972c88063bade5604be5c2effca4e8e10982a82688",
+    "size": 1115,
+    "mode": "0o755",
+    "uid": 0,
+    "gid": 0
+  },
+  {
+    "path": "srv/unified/shared/user/bin/shared-info",
+    "sha256": "2a9a469badae2f59514e5ad4d1b89727faf083ef5e30f8ee5182f929f2829c01",
+    "size": 91,
+    "mode": "0o755",
+    "uid": 1000,
+    "gid": 1000
+  },
+  {
+    "path": "srv/unified/shared/user/python/sharedkit-1.0.0.dist-info/INSTALLER",
+    "sha256": "ceebae7b8927a3227e5303cf5e0f1f7b34bb542ad7250ac03fbcde36ec2f1508",
+    "size": 4,
+    "mode": "0o644",
+    "uid": 1000,
+    "gid": 1000
+  },
+  {
+    "path": "srv/unified/shared/user/python/sharedkit-1.0.0.dist-info/METADATA",
+    "sha256": "5ff1e098791c3d9ba1d62660f5fde7f5fc6ba4e55a740e5898fecbadba33d7c2",
+    "size": 54,
+    "mode": "0o644",
+    "uid": 1000,
+    "gid": 1000
+  },
+  {
+    "path": "srv/unified/shared/user/python/sharedkit-1.0.0.dist-info/RECORD",
+    "sha256": "3777265eb48a91542807a1136a4d9de0acaefdd89a78225b8628ce84f789a437",
+    "size": 712,
+    "mode": "0o644",
+    "uid": 1000,
+    "gid": 1000
+  },
+  {
+    "path": "srv/unified/shared/user/python/sharedkit-1.0.0.dist-info/REQUESTED",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "size": 0,
+    "mode": "0o644",
+    "uid": 1000,
+    "gid": 1000
+  },
+  {
+    "path": "srv/unified/shared/user/python/sharedkit-1.0.0.dist-info/WHEEL",
+    "sha256": "a2241587fe4f9d033413780f762cf4f5608d9b08870cc6867abfde96a0777283",
+    "size": 92,
+    "mode": "0o644",
+    "uid": 1000,
+    "gid": 1000
+  },
+  {
+    "path": "srv/unified/shared/user/python/sharedkit-1.0.0.dist-info/direct_url.json",
+    "sha256": "85a87ee9995dc0fca2d9cc41c52c5d9bcc6a3c8ea9d046e8447edc83a1da8e63",
+    "size": 66,
+    "mode": "0o644",
+    "uid": 1000,
+    "gid": 1000
+  },
+  {
+    "path": "srv/unified/shared/user/python/sharedkit-1.0.0.dist-info/top_level.txt",
+    "sha256": "d85c7bf32fd92d8a79fcf9791b165c79d674c1c521ea3bd01729a6d1102ca119",
+    "size": 10,
+    "mode": "0o644",
+    "uid": 1000,
+    "gid": 1000
+  },
+  {
+    "path": "srv/unified/shared/user/python/sharedkit/__init__.py",
+    "sha256": "6be7d1ab5ec922d9e47c9b4876dcb8caa6f638cafe218e029cc317a6f47b4fb2",
+    "size": 23,
+    "mode": "0o644",
+    "uid": 1000,
+    "gid": 1000
+  },
+  {
+    "path": "srv/unified/state/desktops/a/home/.config/xfce4/desktop/icons.screen.latest.rc",
+    "sha256": "b332a6da37de21c9eb14810ef0b732c5c12bd229c1582c4345461fa0931e493d",
+    "size": 123,
+    "mode": "0o644",
+    "uid": 1000,
+    "gid": 1000
+  },
+  {
+    "path": "srv/unified/state/desktops/a/home/.config/xfce4/desktop/icons.screen0-1264x708.rc",
+    "sha256": "0ea0853b6a6392b135984b42098ed497a3140d02fe9571b8e99ed81db3fe9220",
+    "size": 104,
+    "mode": "0o644",
+    "uid": 1000,
+    "gid": 1000
+  },
+  {
+    "path": "srv/unified/state/desktops/a/home/.config/xfce4/desktop/icons.screen0-1264x757.rc",
+    "sha256": "0ea0853b6a6392b135984b42098ed497a3140d02fe9571b8e99ed81db3fe9220",
+    "size": 104,
+    "mode": "0o644",
+    "uid": 1000,
+    "gid": 1000
+  },
+  {
+    "path": "srv/unified/state/desktops/a/home/.config/xfce4/desktop/icons.screen0-1264x784.rc",
+    "sha256": "0ea0853b6a6392b135984b42098ed497a3140d02fe9571b8e99ed81db3fe9220",
+    "size": 104,
+    "mode": "0o644",
+    "uid": 1000,
+    "gid": 1000
+  },
+  {
+    "path": "srv/unified/state/desktops/a/home/.config/xfce4/desktop/icons.screen0-1384x1034.rc",
+    "sha256": "b332a6da37de21c9eb14810ef0b732c5c12bd229c1582c4345461fa0931e493d",
+    "size": 123,
+    "mode": "0o644",
+    "uid": 1000,
+    "gid": 1000
+  },
+  {
+    "path": "srv/unified/state/desktops/a/home/.config/xfce4/desktop/icons.screen0-2384x1408.rc",
+    "sha256": "0ea0853b6a6392b135984b42098ed497a3140d02fe9571b8e99ed81db3fe9220",
+    "size": 104,
+    "mode": "0o644",
+    "uid": 1000,
+    "gid": 1000
+  },
+  {
+    "path": "srv/unified/state/desktops/a/home/.config/xfce4/desktop/icons.screen0-3824x2308.rc",
+    "sha256": "0ea0853b6a6392b135984b42098ed497a3140d02fe9571b8e99ed81db3fe9220",
+    "size": 104,
+    "mode": "0o644",
+    "uid": 1000,
+    "gid": 1000
+  },
+  {
+    "path": "srv/unified/state/desktops/a/home/.config/xfce4/desktop/icons.screen0-3824x708.rc",
+    "sha256": "0ea0853b6a6392b135984b42098ed497a3140d02fe9571b8e99ed81db3fe9220",
+    "size": 104,
+    "mode": "0o644",
+    "uid": 1000,
+    "gid": 1000
+  },
+  {
+    "path": "srv/unified/state/desktops/a/home/.config/xfce4/desktop/icons.screen0-3824x757.rc",
+    "sha256": "0ea0853b6a6392b135984b42098ed497a3140d02fe9571b8e99ed81db3fe9220",
+    "size": 104,
+    "mode": "0o644",
+    "uid": 1000,
+    "gid": 1000
+  },
+  {
+    "path": "srv/unified/state/desktops/a/home/.config/xfce4/desktop/icons.screen0-3824x784.rc",
+    "sha256": "0ea0853b6a6392b135984b42098ed497a3140d02fe9571b8e99ed81db3fe9220",
+    "size": 104,
+    "mode": "0o644",
+    "uid": 1000,
+    "gid": 1000
+  },
+  {
+    "path": "srv/unified/state/desktops/a/home/.config/xfce4/desktop/icons.screen0-784x1457.rc",
+    "sha256": "b332a6da37de21c9eb14810ef0b732c5c12bd229c1582c4345461fa0931e493d",
+    "size": 123,
+    "mode": "0o644",
+    "uid": 1000,
+    "gid": 1000
+  },
+  {
+    "path": "srv/unified/state/desktops/a/home/.config/xfce4/desktop/icons.screen0-784x1484.rc",
+    "sha256": "b332a6da37de21c9eb14810ef0b732c5c12bd229c1582c4345461fa0931e493d",
+    "size": 123,
+    "mode": "0o644",
+    "uid": 1000,
+    "gid": 1000
+  },
+  {
+    "path": "srv/unified/state/desktops/a/home/.config/xfce4/panel/launcher-117/17917368091.desktop",
+    "sha256": "17be9f527f396ad68c378b0d4842c5464c4a6c6131d3a15fbfa56a368092cbb1",
+    "size": 399,
+    "mode": "0o644",
+    "uid": 1000,
+    "gid": 1000
+  },
+  {
+    "path": "srv/unified/state/desktops/a/home/.config/xfce4/panel/launcher-118/17917368102.desktop",
+    "sha256": "9ddfe337d5569e31b46ab5e7102b41006f84e1a8daaaee1729d407a415bdd1ec",
+    "size": 439,
+    "mode": "0o644",
+    "uid": 1000,
+    "gid": 1000
+  },
+  {
+    "path": "srv/unified/state/desktops/a/home/.config/xfce4/panel/launcher-119/17917368103.desktop",
+    "sha256": "8366e711fc02b6f770f0ce33fabe066709d41e3f3ba11c100168b1eb9d87979d",
+    "size": 398,
+    "mode": "0o644",
+    "uid": 1000,
+    "gid": 1000
+  },
+  {
+    "path": "srv/unified/state/desktops/a/home/.config/xfce4/panel/launcher-120/17917368104.desktop",
+    "sha256": "599acdd2e0a085382d09c20fd6f598c94652194a964701b757c8aca154248e39",
+    "size": 347,
+    "mode": "0o644",
+    "uid": 1000,
+    "gid": 1000
+  },
+  {
+    "path": "srv/unified/state/desktops/a/home/.config/xfce4/panel/launcher-17/17917368091.desktop",
+    "sha256": "e89ac5a4bd8c7e160eb4ecc20752ec86129715d1338359c9e55ea4ceba2d14b3",
+    "size": 394,
+    "mode": "0o644",
+    "uid": 1000,
+    "gid": 1000
+  },
+  {
+    "path": "srv/unified/state/desktops/a/home/.config/xfce4/panel/launcher-17/xfce4-terminal-emulator.desktop",
+    "sha256": "c81ad20a9fdd7736951b7e91d5ccab4abea4ad5c41809e4b6dec9222a80f8715",
+    "size": 181,
+    "mode": "0o644",
+    "uid": 1000,
+    "gid": 1000
+  },
+  {
+    "path": "srv/unified/state/desktops/a/home/.config/xfce4/panel/launcher-18/17917368102.desktop",
+    "sha256": "2031ba54cfe13389f425585b2ea28edc6685984ef1a1c7e3f0124f3c0aa4057c",
+    "size": 434,
+    "mode": "0o644",
+    "uid": 1000,
+    "gid": 1000
+  },
+  {
+    "path": "srv/unified/state/desktops/a/home/.config/xfce4/panel/launcher-18/xfce4-file-manager.desktop",
+    "sha256": "696c60daf9227e79d72263d4b9f47b71b4d180474c1fc42e292a318cf1e94c2d",
+    "size": 188,
+    "mode": "0o644",
+    "uid": 1000,
+    "gid": 1000
+  },
+  {
+    "path": "srv/unified/state/desktops/a/home/.config/xfce4/panel/launcher-19/17917368103.desktop",
+    "sha256": "8366e711fc02b6f770f0ce33fabe066709d41e3f3ba11c100168b1eb9d87979d",
+    "size": 398,
+    "mode": "0o644",
+    "uid": 1000,
+    "gid": 1000
+  },
+  {
+    "path": "srv/unified/state/desktops/a/home/.config/xfce4/panel/launcher-19/17931022201.desktop",
+    "sha256": "8366e711fc02b6f770f0ce33fabe066709d41e3f3ba11c100168b1eb9d87979d",
+    "size": 398,
+    "mode": "0o644",
+    "uid": 1000,
+    "gid": 1000
+  },
+  {
+    "path": "srv/unified/state/desktops/a/home/.config/xfce4/panel/launcher-20/17917368104.desktop",
+    "sha256": "599acdd2e0a085382d09c20fd6f598c94652194a964701b757c8aca154248e39",
+    "size": 347,
+    "mode": "0o644",
+    "uid": 1000,
+    "gid": 1000
+  },
+  {
+    "path": "srv/unified/state/desktops/a/home/.config/xfce4/panel/launcher-20/17931022202.desktop",
+    "sha256": "599acdd2e0a085382d09c20fd6f598c94652194a964701b757c8aca154248e39",
+    "size": 347,
+    "mode": "0o644",
+    "uid": 1000,
+    "gid": 1000
+  },
+  {
+    "path": "srv/unified/state/desktops/a/home/.config/xfce4/panel/launcher-217/17917368091.desktop",
+    "sha256": "17be9f527f396ad68c378b0d4842c5464c4a6c6131d3a15fbfa56a368092cbb1",
+    "size": 399,
+    "mode": "0o644",
+    "uid": 1000,
+    "gid": 1000
+  },
+  {
+    "path": "srv/unified/state/desktops/a/home/.config/xfce4/panel/launcher-218/17917368102.desktop",
+    "sha256": "9ddfe337d5569e31b46ab5e7102b41006f84e1a8daaaee1729d407a415bdd1ec",
+    "size": 439,
+    "mode": "0o644",
+    "uid": 1000,
+    "gid": 1000
+  },
+  {
+    "path": "srv/unified/state/desktops/a/home/.config/xfce4/panel/launcher-219/17917368103.desktop",
+    "sha256": "8366e711fc02b6f770f0ce33fabe066709d41e3f3ba11c100168b1eb9d87979d",
+    "size": 398,
+    "mode": "0o644",
+    "uid": 1000,
+    "gid": 1000
+  },
+  {
+    "path": "srv/unified/state/desktops/a/home/.config/xfce4/panel/launcher-220/17917368104.desktop",
+    "sha256": "599acdd2e0a085382d09c20fd6f598c94652194a964701b757c8aca154248e39",
+    "size": 347,
+    "mode": "0o644",
+    "uid": 1000,
+    "gid": 1000
+  },
+  {
+    "path": "srv/unified/state/desktops/a/home/.config/xfce4/xfconf/xfce-perchannel-xml/displays.xml",
+    "sha256": "01ad5277aeb66be6a31c679aa7262441940f1a331377db98d67d84f610504299",
+    "size": 205,
+    "mode": "0o644",
+    "uid": 1000,
+    "gid": 1000
+  },
+  {
+    "path": "srv/unified/state/desktops/a/home/.config/xfce4/xfconf/xfce-perchannel-xml/thunar.xml",
+    "sha256": "09dd5a20b07702db509066cc55d00e2b0a45a9c08adae4359ed24270944cfc05",
+    "size": 157,
+    "mode": "0o644",
+    "uid": 1000,
+    "gid": 1000
+  },
+  {
+    "path": "srv/unified/state/desktops/a/home/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-appfinder.xml",
+    "sha256": "dc181a24453959d81bce4cfc4a315bd291861ef1de50e340972313c11825276e",
+    "size": 2162,
+    "mode": "0o644",
+    "uid": 1000,
+    "gid": 1000
+  },
+  {
+    "path": "srv/unified/state/desktops/a/home/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-desktop.xml",
+    "sha256": "6366649dbf46d1bc752b29cd4a5ab356eeeac8e8b68e7494ad4b63f4ed1da646",
+    "size": 5286,
+    "mode": "0o644",
+    "uid": 1000,
+    "gid": 1000
+  },
+  {
+    "path": "srv/unified/state/desktops/a/home/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-keyboard-shortcuts.xml",
+    "sha256": "4312999e4d07c5c52afde22da342db10e8b740db0e8f01d053240231d398d85d",
+    "size": 13426,
+    "mode": "0o644",
+    "uid": 1000,
+    "gid": 1000
+  },
+  {
+    "path": "srv/unified/state/desktops/a/home/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-panel.xml",
+    "sha256": "168cd04e40b1bde58ca0f321fec691069c2533ee97d1f52735347ca2b323f11c",
+    "size": 4507,
+    "mode": "0o644",
+    "uid": 1000,
+    "gid": 1000
+  },
+  {
+    "path": "srv/unified/state/desktops/a/home/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-settings-manager.xml",
+    "sha256": "7d483a89b8da83f10915663759be4ab3ad5ad1fb8defe3275f83efc22fedfcc7",
+    "size": 276,
+    "mode": "0o644",
+    "uid": 1000,
+    "gid": 1000
+  },
+  {
+    "path": "srv/unified/state/desktops/a/home/.config/xfce4/xfconf/xfce-perchannel-xml/xfwm4.xml",
+    "sha256": "ac086461714ac228ab3abbedb5dc5f222d82d4daea08aefb090f25cf9683aad7",
+    "size": 5436,
+    "mode": "0o664",
+    "uid": 1000,
+    "gid": 1000
+  },
+  {
+    "path": "srv/unified/state/desktops/a/home/.local/share/applications/unified-editor.desktop",
+    "sha256": "d3845064a6dc04c033f40de61dff53195992eb7f4c52ff4098f80ffb897a3753",
+    "size": 187,
+    "mode": "0o644",
+    "uid": 1000,
+    "gid": 1000
+  },
+  {
+    "path": "srv/unified/state/desktops/a/home/.local/share/applications/unified-files.desktop",
+    "sha256": "696c60daf9227e79d72263d4b9f47b71b4d180474c1fc42e292a318cf1e94c2d",
+    "size": 188,
+    "mode": "0o644",
+    "uid": 1000,
+    "gid": 1000
+  },
+  {
+    "path": "srv/unified/state/desktops/a/home/.local/share/applications/unified-mode-1.desktop",
+    "sha256": "6afdfd65c213f0c115bdaa6dd658c784897530209c9b1065eea12d2843efdde7",
+    "size": 233,
+    "mode": "0o644",
+    "uid": 1000,
+    "gid": 1000
+  },
+  {
+    "path": "srv/unified/state/desktops/a/home/.local/share/applications/unified-mode-2.desktop",
+    "sha256": "35891782bb1ce29c64136cb4b8fe732f5835e5b467bda46280ae3223681bf06e",
+    "size": 233,
+    "mode": "0o644",
+    "uid": 1000,
+    "gid": 1000
+  },
+  {
+    "path": "srv/unified/state/desktops/a/home/.local/share/applications/unified-terminal.desktop",
+    "sha256": "c81ad20a9fdd7736951b7e91d5ccab4abea4ad5c41809e4b6dec9222a80f8715",
+    "size": 181,
+    "mode": "0o644",
+    "uid": 1000,
+    "gid": 1000
+  },
+  {
+    "path": "srv/unified/state/desktops/a/home/.local/share/applications/xfce4-file-manager.desktop",
+    "sha256": "696c60daf9227e79d72263d4b9f47b71b4d180474c1fc42e292a318cf1e94c2d",
+    "size": 188,
+    "mode": "0o644",
+    "uid": 1000,
+    "gid": 1000
+  },
+  {
+    "path": "srv/unified/state/desktops/a/home/.local/share/applications/xfce4-terminal-emulator.desktop",
+    "sha256": "c81ad20a9fdd7736951b7e91d5ccab4abea4ad5c41809e4b6dec9222a80f8715",
+    "size": 181,
+    "mode": "0o644",
+    "uid": 1000,
+    "gid": 1000
+  },
+  {
+    "path": "srv/unified/state/desktops/b/home/.config/xfce4/desktop/icons.screen.latest.rc",
+    "sha256": "11885b3c8bbd7718502aded885e01568271620d1e88bf136fc3491617dc3e130",
+    "size": 123,
+    "mode": "0o644",
+    "uid": 1000,
+    "gid": 1000
+  },
+  {
+    "path": "srv/unified/state/desktops/b/home/.config/xfce4/desktop/icons.screen0-1264x708.rc",
+    "sha256": "0ea0853b6a6392b135984b42098ed497a3140d02fe9571b8e99ed81db3fe9220",
+    "size": 104,
+    "mode": "0o644",
+    "uid": 1000,
+    "gid": 1000
+  },
+  {
+    "path": "srv/unified/state/desktops/b/home/.config/xfce4/desktop/icons.screen0-1264x757.rc",
+    "sha256": "0ea0853b6a6392b135984b42098ed497a3140d02fe9571b8e99ed81db3fe9220",
+    "size": 104,
+    "mode": "0o644",
+    "uid": 1000,
+    "gid": 1000
+  },
+  {
+    "path": "srv/unified/state/desktops/b/home/.config/xfce4/desktop/icons.screen0-1264x784.rc",
+    "sha256": "0ea0853b6a6392b135984b42098ed497a3140d02fe9571b8e99ed81db3fe9220",
+    "size": 104,
+    "mode": "0o644",
+    "uid": 1000,
+    "gid": 1000
+  },
+  {
+    "path": "srv/unified/state/desktops/b/home/.config/xfce4/desktop/icons.screen0-1384x1034.rc",
+    "sha256": "11885b3c8bbd7718502aded885e01568271620d1e88bf136fc3491617dc3e130",
+    "size": 123,
+    "mode": "0o644",
+    "uid": 1000,
+    "gid": 1000
+  },
+  {
+    "path": "srv/unified/state/desktops/b/home/.config/xfce4/desktop/icons.screen0-2384x1408.rc",
+    "sha256": "0ea0853b6a6392b135984b42098ed497a3140d02fe9571b8e99ed81db3fe9220",
+    "size": 104,
+    "mode": "0o644",
+    "uid": 1000,
+    "gid": 1000
+  },
+  {
+    "path": "srv/unified/state/desktops/b/home/.config/xfce4/desktop/icons.screen0-3824x2308.rc",
+    "sha256": "0ea0853b6a6392b135984b42098ed497a3140d02fe9571b8e99ed81db3fe9220",
+    "size": 104,
+    "mode": "0o644",
+    "uid": 1000,
+    "gid": 1000
+  },
+  {
+    "path": "srv/unified/state/desktops/b/home/.config/xfce4/desktop/icons.screen0-3824x708.rc",
+    "sha256": "0ea0853b6a6392b135984b42098ed497a3140d02fe9571b8e99ed81db3fe9220",
+    "size": 104,
+    "mode": "0o644",
+    "uid": 1000,
+    "gid": 1000
+  },
+  {
+    "path": "srv/unified/state/desktops/b/home/.config/xfce4/desktop/icons.screen0-3824x757.rc",
+    "sha256": "0ea0853b6a6392b135984b42098ed497a3140d02fe9571b8e99ed81db3fe9220",
+    "size": 104,
+    "mode": "0o644",
+    "uid": 1000,
+    "gid": 1000
+  },
+  {
+    "path": "srv/unified/state/desktops/b/home/.config/xfce4/desktop/icons.screen0-3824x784.rc",
+    "sha256": "0ea0853b6a6392b135984b42098ed497a3140d02fe9571b8e99ed81db3fe9220",
+    "size": 104,
+    "mode": "0o644",
+    "uid": 1000,
+    "gid": 1000
+  },
+  {
+    "path": "srv/unified/state/desktops/b/home/.config/xfce4/desktop/icons.screen0-784x1457.rc",
+    "sha256": "11885b3c8bbd7718502aded885e01568271620d1e88bf136fc3491617dc3e130",
+    "size": 123,
+    "mode": "0o644",
+    "uid": 1000,
+    "gid": 1000
+  },
+  {
+    "path": "srv/unified/state/desktops/b/home/.config/xfce4/desktop/icons.screen0-784x1484.rc",
+    "sha256": "11885b3c8bbd7718502aded885e01568271620d1e88bf136fc3491617dc3e130",
+    "size": 123,
+    "mode": "0o644",
+    "uid": 1000,
+    "gid": 1000
+  },
+  {
+    "path": "srv/unified/state/desktops/b/home/.config/xfce4/panel/launcher-117/17917368091.desktop",
+    "sha256": "17be9f527f396ad68c378b0d4842c5464c4a6c6131d3a15fbfa56a368092cbb1",
+    "size": 399,
+    "mode": "0o644",
+    "uid": 1000,
+    "gid": 1000
+  },
+  {
+    "path": "srv/unified/state/desktops/b/home/.config/xfce4/panel/launcher-118/17917368102.desktop",
+    "sha256": "9ddfe337d5569e31b46ab5e7102b41006f84e1a8daaaee1729d407a415bdd1ec",
+    "size": 439,
+    "mode": "0o644",
+    "uid": 1000,
+    "gid": 1000
+  },
+  {
+    "path": "srv/unified/state/desktops/b/home/.config/xfce4/panel/launcher-119/17917368103.desktop",
+    "sha256": "8366e711fc02b6f770f0ce33fabe066709d41e3f3ba11c100168b1eb9d87979d",
+    "size": 398,
+    "mode": "0o644",
+    "uid": 1000,
+    "gid": 1000
+  },
+  {
+    "path": "srv/unified/state/desktops/b/home/.config/xfce4/panel/launcher-120/17917368104.desktop",
+    "sha256": "599acdd2e0a085382d09c20fd6f598c94652194a964701b757c8aca154248e39",
+    "size": 347,
+    "mode": "0o644",
+    "uid": 1000,
+    "gid": 1000
+  },
+  {
+    "path": "srv/unified/state/desktops/b/home/.config/xfce4/panel/launcher-17/17917368091.desktop",
+    "sha256": "cfee59713128ac6dfb52a9c314715d6f625d0cab5376129b458bfebdaf6003be",
+    "size": 394,
+    "mode": "0o644",
+    "uid": 1000,
+    "gid": 1000
+  },
+  {
+    "path": "srv/unified/state/desktops/b/home/.config/xfce4/panel/launcher-17/xfce4-terminal-emulator.desktop",
+    "sha256": "daf7af86e33e93b0cbf419dfe5c043bdc7c745bf7a43e9ee233f11639b83804b",
+    "size": 181,
+    "mode": "0o644",
+    "uid": 1000,
+    "gid": 1000
+  },
+  {
+    "path": "srv/unified/state/desktops/b/home/.config/xfce4/panel/launcher-18/17917368102.desktop",
+    "sha256": "7377b3141418c5b213a3652c11e3b12889dd95fe770794997854022cf9510037",
+    "size": 434,
+    "mode": "0o644",
+    "uid": 1000,
+    "gid": 1000
+  },
+  {
+    "path": "srv/unified/state/desktops/b/home/.config/xfce4/panel/launcher-18/xfce4-file-manager.desktop",
+    "sha256": "e4ef1805548aaaa1e7246aeb5b2b9a02a472cce49230268383373a37f85ec8ee",
+    "size": 188,
+    "mode": "0o644",
+    "uid": 1000,
+    "gid": 1000
+  },
+  {
+    "path": "srv/unified/state/desktops/b/home/.config/xfce4/panel/launcher-19/17917368103.desktop",
+    "sha256": "8366e711fc02b6f770f0ce33fabe066709d41e3f3ba11c100168b1eb9d87979d",
+    "size": 398,
+    "mode": "0o644",
+    "uid": 1000,
+    "gid": 1000
+  },
+  {
+    "path": "srv/unified/state/desktops/b/home/.config/xfce4/panel/launcher-19/17931022201.desktop",
+    "sha256": "8366e711fc02b6f770f0ce33fabe066709d41e3f3ba11c100168b1eb9d87979d",
+    "size": 398,
+    "mode": "0o644",
+    "uid": 1000,
+    "gid": 1000
+  },
+  {
+    "path": "srv/unified/state/desktops/b/home/.config/xfce4/panel/launcher-20/17917368104.desktop",
+    "sha256": "599acdd2e0a085382d09c20fd6f598c94652194a964701b757c8aca154248e39",
+    "size": 347,
+    "mode": "0o644",
+    "uid": 1000,
+    "gid": 1000
+  },
+  {
+    "path": "srv/unified/state/desktops/b/home/.config/xfce4/panel/launcher-20/17931022202.desktop",
+    "sha256": "599acdd2e0a085382d09c20fd6f598c94652194a964701b757c8aca154248e39",
+    "size": 347,
+    "mode": "0o644",
+    "uid": 1000,
+    "gid": 1000
+  },
+  {
+    "path": "srv/unified/state/desktops/b/home/.config/xfce4/panel/launcher-217/17917368091.desktop",
+    "sha256": "17be9f527f396ad68c378b0d4842c5464c4a6c6131d3a15fbfa56a368092cbb1",
+    "size": 399,
+    "mode": "0o644",
+    "uid": 1000,
+    "gid": 1000
+  },
+  {
+    "path": "srv/unified/state/desktops/b/home/.config/xfce4/panel/launcher-218/17917368102.desktop",
+    "sha256": "9ddfe337d5569e31b46ab5e7102b41006f84e1a8daaaee1729d407a415bdd1ec",
+    "size": 439,
+    "mode": "0o644",
+    "uid": 1000,
+    "gid": 1000
+  },
+  {
+    "path": "srv/unified/state/desktops/b/home/.config/xfce4/panel/launcher-219/17917368103.desktop",
+    "sha256": "8366e711fc02b6f770f0ce33fabe066709d41e3f3ba11c100168b1eb9d87979d",
+    "size": 398,
+    "mode": "0o644",
+    "uid": 1000,
+    "gid": 1000
+  },
+  {
+    "path": "srv/unified/state/desktops/b/home/.config/xfce4/panel/launcher-220/17917368104.desktop",
+    "sha256": "599acdd2e0a085382d09c20fd6f598c94652194a964701b757c8aca154248e39",
+    "size": 347,
+    "mode": "0o644",
+    "uid": 1000,
+    "gid": 1000
+  },
+  {
+    "path": "srv/unified/state/desktops/b/home/.config/xfce4/xfconf/xfce-perchannel-xml/displays.xml",
+    "sha256": "01ad5277aeb66be6a31c679aa7262441940f1a331377db98d67d84f610504299",
+    "size": 205,
+    "mode": "0o644",
+    "uid": 1000,
+    "gid": 1000
+  },
+  {
+    "path": "srv/unified/state/desktops/b/home/.config/xfce4/xfconf/xfce-perchannel-xml/thunar.xml",
+    "sha256": "09dd5a20b07702db509066cc55d00e2b0a45a9c08adae4359ed24270944cfc05",
+    "size": 157,
+    "mode": "0o644",
+    "uid": 1000,
+    "gid": 1000
+  },
+  {
+    "path": "srv/unified/state/desktops/b/home/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-appfinder.xml",
+    "sha256": "dc181a24453959d81bce4cfc4a315bd291861ef1de50e340972313c11825276e",
+    "size": 2162,
+    "mode": "0o644",
+    "uid": 1000,
+    "gid": 1000
+  },
+  {
+    "path": "srv/unified/state/desktops/b/home/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-desktop.xml",
+    "sha256": "6366649dbf46d1bc752b29cd4a5ab356eeeac8e8b68e7494ad4b63f4ed1da646",
+    "size": 5286,
+    "mode": "0o644",
+    "uid": 1000,
+    "gid": 1000
+  },
+  {
+    "path": "srv/unified/state/desktops/b/home/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-keyboard-shortcuts.xml",
+    "sha256": "4312999e4d07c5c52afde22da342db10e8b740db0e8f01d053240231d398d85d",
+    "size": 13426,
+    "mode": "0o644",
+    "uid": 1000,
+    "gid": 1000
+  },
+  {
+    "path": "srv/unified/state/desktops/b/home/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-panel.xml",
+    "sha256": "e91a477d27728fe2464a705e3dafa09ea75b438e411e6bfea62733654b942d07",
+    "size": 4507,
+    "mode": "0o644",
+    "uid": 1000,
+    "gid": 1000
+  },
+  {
+    "path": "srv/unified/state/desktops/b/home/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-settings-manager.xml",
+    "sha256": "7d483a89b8da83f10915663759be4ab3ad5ad1fb8defe3275f83efc22fedfcc7",
+    "size": 276,
+    "mode": "0o644",
+    "uid": 1000,
+    "gid": 1000
+  },
+  {
+    "path": "srv/unified/state/desktops/b/home/.config/xfce4/xfconf/xfce-perchannel-xml/xfwm4.xml",
+    "sha256": "ac086461714ac228ab3abbedb5dc5f222d82d4daea08aefb090f25cf9683aad7",
+    "size": 5436,
+    "mode": "0o664",
+    "uid": 1000,
+    "gid": 1000
+  },
+  {
+    "path": "srv/unified/state/desktops/b/home/.local/share/applications/unified-editor.desktop",
+    "sha256": "4057b902f3a9cfdcf2a9a7982197fcfe70b09743f66ad5cc47d1983a07b6a26b",
+    "size": 187,
+    "mode": "0o644",
+    "uid": 1000,
+    "gid": 1000
+  },
+  {
+    "path": "srv/unified/state/desktops/b/home/.local/share/applications/unified-files.desktop",
+    "sha256": "e4ef1805548aaaa1e7246aeb5b2b9a02a472cce49230268383373a37f85ec8ee",
+    "size": 188,
+    "mode": "0o644",
+    "uid": 1000,
+    "gid": 1000
+  },
+  {
+    "path": "srv/unified/state/desktops/b/home/.local/share/applications/unified-mode-1.desktop",
+    "sha256": "6afdfd65c213f0c115bdaa6dd658c784897530209c9b1065eea12d2843efdde7",
+    "size": 233,
+    "mode": "0o644",
+    "uid": 1000,
+    "gid": 1000
+  },
+  {
+    "path": "srv/unified/state/desktops/b/home/.local/share/applications/unified-mode-2.desktop",
+    "sha256": "35891782bb1ce29c64136cb4b8fe732f5835e5b467bda46280ae3223681bf06e",
+    "size": 233,
+    "mode": "0o644",
+    "uid": 1000,
+    "gid": 1000
+  },
+  {
+    "path": "srv/unified/state/desktops/b/home/.local/share/applications/unified-terminal.desktop",
+    "sha256": "daf7af86e33e93b0cbf419dfe5c043bdc7c745bf7a43e9ee233f11639b83804b",
+    "size": 181,
+    "mode": "0o644",
+    "uid": 1000,
+    "gid": 1000
+  },
+  {
+    "path": "srv/unified/state/desktops/b/home/.local/share/applications/xfce4-file-manager.desktop",
+    "sha256": "e4ef1805548aaaa1e7246aeb5b2b9a02a472cce49230268383373a37f85ec8ee",
+    "size": 188,
+    "mode": "0o644",
+    "uid": 1000,
+    "gid": 1000
+  },
+  {
+    "path": "srv/unified/state/desktops/b/home/.local/share/applications/xfce4-terminal-emulator.desktop",
+    "sha256": "daf7af86e33e93b0cbf419dfe5c043bdc7c745bf7a43e9ee233f11639b83804b",
+    "size": 181,
+    "mode": "0o644",
+    "uid": 1000,
+    "gid": 1000
+  },
+  {
+    "path": "srv/unified/state/desktops/c/home/.config/xfce4/desktop/icons.screen.latest.rc",
+    "sha256": "06c2223c5d3f76de06c72d5bdc7b5f5e4ab69c4d18a11ea67541410469475b96",
+    "size": 123,
+    "mode": "0o644",
+    "uid": 1000,
+    "gid": 1000
+  },
+  {
+    "path": "srv/unified/state/desktops/c/home/.config/xfce4/desktop/icons.screen0-1264x708.rc",
+    "sha256": "0ea0853b6a6392b135984b42098ed497a3140d02fe9571b8e99ed81db3fe9220",
+    "size": 104,
+    "mode": "0o644",
+    "uid": 1000,
+    "gid": 1000
+  },
+  {
+    "path": "srv/unified/state/desktops/c/home/.config/xfce4/desktop/icons.screen0-1264x757.rc",
+    "sha256": "0ea0853b6a6392b135984b42098ed497a3140d02fe9571b8e99ed81db3fe9220",
+    "size": 104,
+    "mode": "0o644",
+    "uid": 1000,
+    "gid": 1000
+  },
+  {
+    "path": "srv/unified/state/desktops/c/home/.config/xfce4/desktop/icons.screen0-1264x784.rc",
+    "sha256": "0ea0853b6a6392b135984b42098ed497a3140d02fe9571b8e99ed81db3fe9220",
+    "size": 104,
+    "mode": "0o644",
+    "uid": 1000,
+    "gid": 1000
+  },
+  {
+    "path": "srv/unified/state/desktops/c/home/.config/xfce4/desktop/icons.screen0-1384x1034.rc",
+    "sha256": "06c2223c5d3f76de06c72d5bdc7b5f5e4ab69c4d18a11ea67541410469475b96",
+    "size": 123,
+    "mode": "0o644",
+    "uid": 1000,
+    "gid": 1000
+  },
+  {
+    "path": "srv/unified/state/desktops/c/home/.config/xfce4/desktop/icons.screen0-2384x1408.rc",
+    "sha256": "0ea0853b6a6392b135984b42098ed497a3140d02fe9571b8e99ed81db3fe9220",
+    "size": 104,
+    "mode": "0o644",
+    "uid": 1000,
+    "gid": 1000
+  },
+  {
+    "path": "srv/unified/state/desktops/c/home/.config/xfce4/desktop/icons.screen0-3824x2308.rc",
+    "sha256": "0ea0853b6a6392b135984b42098ed497a3140d02fe9571b8e99ed81db3fe9220",
+    "size": 104,
+    "mode": "0o644",
+    "uid": 1000,
+    "gid": 1000
+  },
+  {
+    "path": "srv/unified/state/desktops/c/home/.config/xfce4/desktop/icons.screen0-3824x708.rc",
+    "sha256": "0ea0853b6a6392b135984b42098ed497a3140d02fe9571b8e99ed81db3fe9220",
+    "size": 104,
+    "mode": "0o644",
+    "uid": 1000,
+    "gid": 1000
+  },
+  {
+    "path": "srv/unified/state/desktops/c/home/.config/xfce4/desktop/icons.screen0-3824x757.rc",
+    "sha256": "0ea0853b6a6392b135984b42098ed497a3140d02fe9571b8e99ed81db3fe9220",
+    "size": 104,
+    "mode": "0o644",
+    "uid": 1000,
+    "gid": 1000
+  },
+  {
+    "path": "srv/unified/state/desktops/c/home/.config/xfce4/desktop/icons.screen0-3824x784.rc",
+    "sha256": "0ea0853b6a6392b135984b42098ed497a3140d02fe9571b8e99ed81db3fe9220",
+    "size": 104,
+    "mode": "0o644",
+    "uid": 1000,
+    "gid": 1000
+  },
+  {
+    "path": "srv/unified/state/desktops/c/home/.config/xfce4/desktop/icons.screen0-784x1457.rc",
+    "sha256": "06c2223c5d3f76de06c72d5bdc7b5f5e4ab69c4d18a11ea67541410469475b96",
+    "size": 123,
+    "mode": "0o644",
+    "uid": 1000,
+    "gid": 1000
+  },
+  {
+    "path": "srv/unified/state/desktops/c/home/.config/xfce4/desktop/icons.screen0-784x1484.rc",
+    "sha256": "06c2223c5d3f76de06c72d5bdc7b5f5e4ab69c4d18a11ea67541410469475b96",
+    "size": 123,
+    "mode": "0o644",
+    "uid": 1000,
+    "gid": 1000
+  },
+  {
+    "path": "srv/unified/state/desktops/c/home/.config/xfce4/panel/launcher-117/17917368091.desktop",
+    "sha256": "17be9f527f396ad68c378b0d4842c5464c4a6c6131d3a15fbfa56a368092cbb1",
+    "size": 399,
+    "mode": "0o644",
+    "uid": 1000,
+    "gid": 1000
+  },
+  {
+    "path": "srv/unified/state/desktops/c/home/.config/xfce4/panel/launcher-118/17917368102.desktop",
+    "sha256": "9ddfe337d5569e31b46ab5e7102b41006f84e1a8daaaee1729d407a415bdd1ec",
+    "size": 439,
+    "mode": "0o644",
+    "uid": 1000,
+    "gid": 1000
+  },
+  {
+    "path": "srv/unified/state/desktops/c/home/.config/xfce4/panel/launcher-119/17917368103.desktop",
+    "sha256": "8366e711fc02b6f770f0ce33fabe066709d41e3f3ba11c100168b1eb9d87979d",
+    "size": 398,
+    "mode": "0o644",
+    "uid": 1000,
+    "gid": 1000
+  },
+  {
+    "path": "srv/unified/state/desktops/c/home/.config/xfce4/panel/launcher-120/17917368104.desktop",
+    "sha256": "599acdd2e0a085382d09c20fd6f598c94652194a964701b757c8aca154248e39",
+    "size": 347,
+    "mode": "0o644",
+    "uid": 1000,
+    "gid": 1000
+  },
+  {
+    "path": "srv/unified/state/desktops/c/home/.config/xfce4/panel/launcher-17/17917368091.desktop",
+    "sha256": "6e9e4081dffe8d34309927e5d286c20129c32657c3d453b4beee9a06e1352383",
+    "size": 394,
+    "mode": "0o644",
+    "uid": 1000,
+    "gid": 1000
+  },
+  {
+    "path": "srv/unified/state/desktops/c/home/.config/xfce4/panel/launcher-17/xfce4-terminal-emulator.desktop",
+    "sha256": "eade94bd5955e6435e47aff0160d29abd7ec065bc2bc65c37be94df4c4adcda1",
+    "size": 181,
+    "mode": "0o644",
+    "uid": 1000,
+    "gid": 1000
+  },
+  {
+    "path": "srv/unified/state/desktops/c/home/.config/xfce4/panel/launcher-18/17917368102.desktop",
+    "sha256": "c2ae20f38de3574b1ad672aa9147dbb6224c40f9a28b6a55b8559eb079ed310b",
+    "size": 434,
+    "mode": "0o644",
+    "uid": 1000,
+    "gid": 1000
+  },
+  {
+    "path": "srv/unified/state/desktops/c/home/.config/xfce4/panel/launcher-18/xfce4-file-manager.desktop",
+    "sha256": "db21aa6762a029ee744531739479961f7fc3949e4e2d1501fbc2d7f8dc4a6286",
+    "size": 188,
+    "mode": "0o644",
+    "uid": 1000,
+    "gid": 1000
+  },
+  {
+    "path": "srv/unified/state/desktops/c/home/.config/xfce4/panel/launcher-19/17917368103.desktop",
+    "sha256": "8366e711fc02b6f770f0ce33fabe066709d41e3f3ba11c100168b1eb9d87979d",
+    "size": 398,
+    "mode": "0o644",
+    "uid": 1000,
+    "gid": 1000
+  },
+  {
+    "path": "srv/unified/state/desktops/c/home/.config/xfce4/panel/launcher-19/17931022201.desktop",
+    "sha256": "8366e711fc02b6f770f0ce33fabe066709d41e3f3ba11c100168b1eb9d87979d",
+    "size": 398,
+    "mode": "0o644",
+    "uid": 1000,
+    "gid": 1000
+  },
+  {
+    "path": "srv/unified/state/desktops/c/home/.config/xfce4/panel/launcher-20/17917368104.desktop",
+    "sha256": "599acdd2e0a085382d09c20fd6f598c94652194a964701b757c8aca154248e39",
+    "size": 347,
+    "mode": "0o644",
+    "uid": 1000,
+    "gid": 1000
+  },
+  {
+    "path": "srv/unified/state/desktops/c/home/.config/xfce4/panel/launcher-20/17931022202.desktop",
+    "sha256": "599acdd2e0a085382d09c20fd6f598c94652194a964701b757c8aca154248e39",
+    "size": 347,
+    "mode": "0o644",
+    "uid": 1000,
+    "gid": 1000
+  },
+  {
+    "path": "srv/unified/state/desktops/c/home/.config/xfce4/panel/launcher-217/17917368091.desktop",
+    "sha256": "17be9f527f396ad68c378b0d4842c5464c4a6c6131d3a15fbfa56a368092cbb1",
+    "size": 399,
+    "mode": "0o644",
+    "uid": 1000,
+    "gid": 1000
+  },
+  {
+    "path": "srv/unified/state/desktops/c/home/.config/xfce4/panel/launcher-218/17917368102.desktop",
+    "sha256": "9ddfe337d5569e31b46ab5e7102b41006f84e1a8daaaee1729d407a415bdd1ec",
+    "size": 439,
+    "mode": "0o644",
+    "uid": 1000,
+    "gid": 1000
+  },
+  {
+    "path": "srv/unified/state/desktops/c/home/.config/xfce4/panel/launcher-219/17917368103.desktop",
+    "sha256": "8366e711fc02b6f770f0ce33fabe066709d41e3f3ba11c100168b1eb9d87979d",
+    "size": 398,
+    "mode": "0o644",
+    "uid": 1000,
+    "gid": 1000
+  },
+  {
+    "path": "srv/unified/state/desktops/c/home/.config/xfce4/panel/launcher-220/17917368104.desktop",
+    "sha256": "599acdd2e0a085382d09c20fd6f598c94652194a964701b757c8aca154248e39",
+    "size": 347,
+    "mode": "0o644",
+    "uid": 1000,
+    "gid": 1000
+  },
+  {
+    "path": "srv/unified/state/desktops/c/home/.config/xfce4/xfconf/xfce-perchannel-xml/displays.xml",
+    "sha256": "01ad5277aeb66be6a31c679aa7262441940f1a331377db98d67d84f610504299",
+    "size": 205,
+    "mode": "0o644",
+    "uid": 1000,
+    "gid": 1000
+  },
+  {
+    "path": "srv/unified/state/desktops/c/home/.config/xfce4/xfconf/xfce-perchannel-xml/thunar.xml",
+    "sha256": "09dd5a20b07702db509066cc55d00e2b0a45a9c08adae4359ed24270944cfc05",
+    "size": 157,
+    "mode": "0o644",
+    "uid": 1000,
+    "gid": 1000
+  },
+  {
+    "path": "srv/unified/state/desktops/c/home/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-appfinder.xml",
+    "sha256": "dc181a24453959d81bce4cfc4a315bd291861ef1de50e340972313c11825276e",
+    "size": 2162,
+    "mode": "0o644",
+    "uid": 1000,
+    "gid": 1000
+  },
+  {
+    "path": "srv/unified/state/desktops/c/home/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-desktop.xml",
+    "sha256": "6366649dbf46d1bc752b29cd4a5ab356eeeac8e8b68e7494ad4b63f4ed1da646",
+    "size": 5286,
+    "mode": "0o644",
+    "uid": 1000,
+    "gid": 1000
+  },
+  {
+    "path": "srv/unified/state/desktops/c/home/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-keyboard-shortcuts.xml",
+    "sha256": "4312999e4d07c5c52afde22da342db10e8b740db0e8f01d053240231d398d85d",
+    "size": 13426,
+    "mode": "0o644",
+    "uid": 1000,
+    "gid": 1000
+  },
+  {
+    "path": "srv/unified/state/desktops/c/home/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-panel.xml",
+    "sha256": "63bcd55f6553a908f874288c1f245e98bc853b5e634d5ceab54b47423f84c7a1",
+    "size": 4507,
+    "mode": "0o644",
+    "uid": 1000,
+    "gid": 1000
+  },
+  {
+    "path": "srv/unified/state/desktops/c/home/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-settings-manager.xml",
+    "sha256": "7d483a89b8da83f10915663759be4ab3ad5ad1fb8defe3275f83efc22fedfcc7",
+    "size": 276,
+    "mode": "0o644",
+    "uid": 1000,
+    "gid": 1000
+  },
+  {
+    "path": "srv/unified/state/desktops/c/home/.config/xfce4/xfconf/xfce-perchannel-xml/xfwm4.xml",
+    "sha256": "ac086461714ac228ab3abbedb5dc5f222d82d4daea08aefb090f25cf9683aad7",
+    "size": 5436,
+    "mode": "0o664",
+    "uid": 1000,
+    "gid": 1000
+  },
+  {
+    "path": "srv/unified/state/desktops/c/home/.local/share/applications/unified-editor.desktop",
+    "sha256": "effc2a81ef0a75e2ff8819a4478ac690ca5a1284d0fc075c594271e1ed5d45df",
+    "size": 187,
+    "mode": "0o644",
+    "uid": 1000,
+    "gid": 1000
+  },
+  {
+    "path": "srv/unified/state/desktops/c/home/.local/share/applications/unified-files.desktop",
+    "sha256": "db21aa6762a029ee744531739479961f7fc3949e4e2d1501fbc2d7f8dc4a6286",
+    "size": 188,
+    "mode": "0o644",
+    "uid": 1000,
+    "gid": 1000
+  },
+  {
+    "path": "srv/unified/state/desktops/c/home/.local/share/applications/unified-mode-1.desktop",
+    "sha256": "6afdfd65c213f0c115bdaa6dd658c784897530209c9b1065eea12d2843efdde7",
+    "size": 233,
+    "mode": "0o644",
+    "uid": 1000,
+    "gid": 1000
+  },
+  {
+    "path": "srv/unified/state/desktops/c/home/.local/share/applications/unified-mode-2.desktop",
+    "sha256": "35891782bb1ce29c64136cb4b8fe732f5835e5b467bda46280ae3223681bf06e",
+    "size": 233,
+    "mode": "0o644",
+    "uid": 1000,
+    "gid": 1000
+  },
+  {
+    "path": "srv/unified/state/desktops/c/home/.local/share/applications/unified-terminal.desktop",
+    "sha256": "eade94bd5955e6435e47aff0160d29abd7ec065bc2bc65c37be94df4c4adcda1",
+    "size": 181,
+    "mode": "0o644",
+    "uid": 1000,
+    "gid": 1000
+  },
+  {
+    "path": "srv/unified/state/desktops/c/home/.local/share/applications/xfce4-file-manager.desktop",
+    "sha256": "db21aa6762a029ee744531739479961f7fc3949e4e2d1501fbc2d7f8dc4a6286",
+    "size": 188,
+    "mode": "0o644",
+    "uid": 1000,
+    "gid": 1000
+  },
+  {
+    "path": "srv/unified/state/desktops/c/home/.local/share/applications/xfce4-terminal-emulator.desktop",
+    "sha256": "eade94bd5955e6435e47aff0160d29abd7ec065bc2bc65c37be94df4c4adcda1",
+    "size": 181,
+    "mode": "0o644",
+    "uid": 1000,
+    "gid": 1000
+  },
+  {
+    "path": "srv/unified/state/modes.json",
+    "sha256": "26801efa9945804c28776b607e7704e1d4401e6bcec79cc882b331809dc80de9",
+    "size": 144,
+    "mode": "0o644",
+    "uid": 1000,
+    "gid": 1000
+  },
+  {
+    "path": "srv/unified/state/publisher/pyvenv.cfg",
+    "sha256": "28a6d427a01886cb6421f2fea29f0e7bd5ac689dc6a1c7a67aab500b33152d08",
+    "size": 189,
+    "mode": "0o644",
+    "uid": 1000,
+    "gid": 1000
+  },
+  {
+    "path": "srv/unified/state/sharedkit-src/pyproject.toml",
+    "sha256": "6730be3831ad02434aa78eaa21f4f039a8912954ef547a38934a815162afd3c8",
+    "size": 128,
+    "mode": "0o644",
+    "uid": 1000,
+    "gid": 1000
+  },
+  {
+    "path": "srv/unified/state/sharedkit-src/sharedkit/__init__.py",
+    "sha256": "6be7d1ab5ec922d9e47c9b4876dcb8caa6f638cafe218e029cc317a6f47b4fb2",
+    "size": 23,
+    "mode": "0o644",
+    "uid": 1000,
+    "gid": 1000
+  },
+  {
+    "path": "srv/unified/tile-monitor.sh",
+    "sha256": "6509c2e7cafb4e37b19c9e280ff02bc926fe649816521f66981ae4cdc2fefce7",
+    "size": 527,
+    "mode": "0o755",
+    "uid": 0,
+    "gid": 0
+  },
+  {
+    "path": "srv/unified/verify.sh",
+    "sha256": "089aa331180bdde66d12430a07f344ccf62c8d32dd5ce51f245cf84bc85d3320",
+    "size": 798,
+    "mode": "0o755",
+    "uid": 0,
+    "gid": 0
+  },
+  {
+    "path": "srv/unified/web/display/clipboard.html",
+    "sha256": "32f65c2a7ebe73cd0f4ff9a0006d9927b647c14b3e23fe1d516c6adb16f0617a",
+    "size": 5803,
+    "mode": "0o644",
+    "uid": 0,
+    "gid": 0
+  },
+  {
+    "path": "srv/unified/web/display/clipboard.html.br",
+    "sha256": "f6b72dd1817947be9555674b0e6613d5c7001375b4ccbe7029d0825b950a9912",
+    "size": 1198,
+    "mode": "0o644",
+    "uid": 0,
+    "gid": 0
+  },
+  {
+    "path": "srv/unified/web/display/clipboard.html.gz",
+    "sha256": "d2823ab3817a4d31304dd8e2d76b263a149e89245ebf22f0c03a81b4eca3e06e",
+    "size": 1538,
+    "mode": "0o644",
+    "uid": 0,
+    "gid": 0
+  },
+  {
+    "path": "srv/unified/web/display/connect.html",
+    "sha256": "b655489c842f8e3985668637ac655b5348d96b3bbc193f18a568b755cfd7fa70",
+    "size": 65538,
+    "mode": "0o644",
+    "uid": 0,
+    "gid": 0
+  },
+  {
+    "path": "srv/unified/web/display/connect.html.br",
+    "sha256": "14478b0e1d3154f53af32cb48bf0bd929dea46101c7220c27a24c4cf02b3a1ab",
+    "size": 10721,
+    "mode": "0o644",
+    "uid": 0,
+    "gid": 0
+  },
+  {
+    "path": "srv/unified/web/display/connect.html.gz",
+    "sha256": "6d163cb02e3ffac17028645e250081f28b0ec6a941fda4d85c1a3281fcbbfa48",
+    "size": 12728,
+    "mode": "0o644",
+    "uid": 0,
+    "gid": 0
+  },
+  {
+    "path": "srv/unified/web/display/crypto.html",
+    "sha256": "3cf5685a1ae9787e5fb8f6230184fd6176ab0196d1318c3a3aa1e1523ebb10ca",
+    "size": 18083,
+    "mode": "0o644",
+    "uid": 0,
+    "gid": 0
+  },
+  {
+    "path": "srv/unified/web/display/crypto.html.br",
+    "sha256": "e0101eb6f6865928ece49961853be96f1314c10e6db20e9fb07adb56bf4b95fd",
+    "size": 6887,
+    "mode": "0o644",
+    "uid": 0,
+    "gid": 0
+  },
+  {
+    "path": "srv/unified/web/display/crypto.html.gz",
+    "sha256": "ae1a5dd48b5068c79b4204efb843ddbd7a143634bdf277c9b9974ed31cdb985c",
+    "size": 8110,
+    "mode": "0o644",
+    "uid": 0,
+    "gid": 0
+  },
+  {
+    "path": "srv/unified/web/display/css/client.css",
+    "sha256": "569b62f15b8f4182a62cc6f240930a89cc501cf77a0b48c3a3528562acf1a49f",
+    "size": 9340,
+    "mode": "0o644",
+    "uid": 0,
+    "gid": 0
+  },
+  {
+    "path": "srv/unified/web/display/css/client.css.br",
+    "sha256": "fcdf267d7cd4be6672dea802248b81bd6a5034f2987001b3cf082d078dff846b",
+    "size": 1981,
+    "mode": "0o644",
+    "uid": 0,
+    "gid": 0
+  },
+  {
+    "path": "srv/unified/web/display/css/client.css.gz",
+    "sha256": "9b3bc18a92fac22c3144964e8aed9da4da7067e3140b4a2c59af606eba8bd14c",
+    "size": 2354,
+    "mode": "0o644",
+    "uid": 0,
+    "gid": 0
+  },
+  {
+    "path": "srv/unified/web/display/css/connect.css",
+    "sha256": "d14d6f87632ede5fc11628361f5385927f295ebd6d9c6b563fe17127591789ba",
+    "size": 4539,
+    "mode": "0o644",
+    "uid": 0,
+    "gid": 0
+  },
+  {
+    "path": "srv/unified/web/display/css/connect.css.br",
+    "sha256": "1a3c41474b5a92663d538fa4dd2da411fdcc2ac383052fec2cd26900d7c3ad94",
+    "size": 1167,
+    "mode": "0o644",
+    "uid": 0,
+    "gid": 0
+  },
+  {
+    "path": "srv/unified/web/display/css/connect.css.gz",
+    "sha256": "4a3b726278fcaa5d4b335fc994144f5bd418d8a305cb33c328e0df26484287fd",
+    "size": 1461,
+    "mode": "0o644",
+    "uid": 0,
+    "gid": 0
+  },
+  {
+    "path": "srv/unified/web/display/css/icon.css",
+    "sha256": "754c017697b33bb454fbba28b9f265243f67a98a4e43a3ff5cf430b2e8c2db45",
+    "size": 581,
+    "mode": "0o644",
+    "uid": 0,
+    "gid": 0
+  },
+  {
+    "path": "srv/unified/web/display/css/icon.css.br",
+    "sha256": "cbd4b1613eabd2fb84356baee4f73575cd4eb0d1598474e3f74ef8f872e06287",
+    "size": 242,
+    "mode": "0o644",
+    "uid": 0,
+    "gid": 0
+  },
+  {
+    "path": "srv/unified/web/display/css/icon.css.gz",
+    "sha256": "cec7618a3320a3a5135d2bf6abe1eb67d14513d804286d24a7c380b26852cf02",
+    "size": 336,
+    "mode": "0o644",
+    "uid": 0,
+    "gid": 0
+  },
+  {
+    "path": "srv/unified/web/display/css/menu-skin.css",
+    "sha256": "971d03dcd92507e37ef8a2e90149807967235468713ada412680c923e502191f",
+    "size": 3861,
+    "mode": "0o644",
+    "uid": 0,
+    "gid": 0
+  },
+  {
+    "path": "srv/unified/web/display/css/menu-skin.css.br",
+    "sha256": "67dc614241aea0043cd93c3ec66f25ff6770c86260c7834ba9430b381439a5bc",
+    "size": 1242,
+    "mode": "0o644",
+    "uid": 0,
+    "gid": 0
+  },
+  {
+    "path": "srv/unified/web/display/css/menu-skin.css.gz",
+    "sha256": "820c841ef7d3367c1e9e3ba69f0c28f0f0f9b5516af16a56f82b020dcf387582",
+    "size": 1597,
+    "mode": "0o644",
+    "uid": 0,
+    "gid": 0
+  },
+  {
+    "path": "srv/unified/web/display/css/menu.css",
+    "sha256": "d986b28187a5bdacf05b313f83472fdb00721b2945d8eb1151eb0322fa165bbe",
+    "size": 5636,
+    "mode": "0o644",
+    "uid": 0,
+    "gid": 0
+  },
+  {
+    "path": "srv/unified/web/display/css/menu.css.br",
+    "sha256": "96558c07187529140aa0881d58b72e5ff95367df9a1141fe2a2a862c7ee3aa4e",
+    "size": 1555,
+    "mode": "0o644",
+    "uid": 0,
+    "gid": 0
+  },
+  {
+    "path": "srv/unified/web/display/css/menu.css.gz",
+    "sha256": "f51ebdf7e7eb3589ad0d34d7f0a54eb4baade98d0dac33c7c87a012bb17f3784",
+    "size": 2002,
+    "mode": "0o644",
+    "uid": 0,
+    "gid": 0
+  },
+  {
+    "path": "srv/unified/web/display/css/simple-keyboard.css",
+    "sha256": "b4663a0ad89f73b6d31bffd838213ff68374880be02b76f8685c341e99ca59d4",
+    "size": 2533,
+    "mode": "0o644",
+    "uid": 0,
+    "gid": 0
+  },
+  {
+    "path": "srv/unified/web/display/css/simple-keyboard.css.br",
+    "sha256": "42397ce40885610cdef3f48fc6d0066d152824d3e24102a8c9aee5c952c02a86",
+    "size": 679,
+    "mode": "0o644",
+    "uid": 0,
+    "gid": 0
+  },
+  {
+    "path": "srv/unified/web/display/css/simple-keyboard.css.gz",
+    "sha256": "7af46a8cb61b96d554152bba342c4f0349ba72756cf8038de431cacd49497328",
+    "size": 855,
+    "mode": "0o644",
+    "uid": 0,
+    "gid": 0
+  },
+  {
+    "path": "srv/unified/web/display/css/simple-keyboard.css.map",
+    "sha256": "f5ed87f0d8956832b90ef5c965ba31729075db4d927ef370fc63284ce5c384e0",
+    "size": 6160,
+    "mode": "0o644",
+    "uid": 0,
+    "gid": 0
+  },
+  {
+    "path": "srv/unified/web/display/css/simple-keyboard.css.map.br",
+    "sha256": "83bfa24a0cf3794bdc07f25eae017950b2592f7b4890011ae9bf40a2e9a92a33",
+    "size": 1075,
+    "mode": "0o644",
+    "uid": 0,
+    "gid": 0
+  },
+  {
+    "path": "srv/unified/web/display/css/simple-keyboard.css.map.gz",
+    "sha256": "b8d46fb670512bc723b2f1c499c3506ad338c1d426f964f04733eead882fec8b",
+    "size": 1305,
+    "mode": "0o644",
+    "uid": 0,
+    "gid": 0
+  },
+  {
+    "path": "srv/unified/web/display/css/slick.css",
+    "sha256": "608f56678961f93facf350f9aed8c645d54af1ee66370cecb65d59de2e4d125d",
+    "size": 1445,
+    "mode": "0o644",
+    "uid": 0,
+    "gid": 0
+  },
+  {
+    "path": "srv/unified/web/display/css/slick.css.br",
+    "sha256": "b4fb95e5378d74be1037b7b7261cebf7f7ef68e8ae4d86db176006eff0d5bbc9",
+    "size": 400,
+    "mode": "0o644",
+    "uid": 0,
+    "gid": 0
+  },
+  {
+    "path": "srv/unified/web/display/css/slick.css.gz",
+    "sha256": "edce4c86c58c8d917bba0b1971487cba2df09312f4bbe735b2f5817350c6a7a6",
+    "size": 512,
+    "mode": "0o644",
+    "uid": 0,
+    "gid": 0
+  },
+  {
+    "path": "srv/unified/web/display/css/spinner.css",
+    "sha256": "2724650f02fa0370459ae823b119431e0fd9da72fc3e78f857a98daa427a9060",
+    "size": 751,
+    "mode": "0o644",
+    "uid": 0,
+    "gid": 0
+  },
+  {
+    "path": "srv/unified/web/display/css/spinner.css.br",
+    "sha256": "596f7c2aa1f19aebc5eaaadea92792e7e183c677016fe7fd9b099815d822b30a",
+    "size": 249,
+    "mode": "0o644",
+    "uid": 0,
+    "gid": 0
+  },
+  {
+    "path": "srv/unified/web/display/css/spinner.css.gz",
+    "sha256": "3c5c4f7884b202bf65e2f7c333147590021371c24561c602fa0483ad6bd11ada",
+    "size": 302,
+    "mode": "0o644",
+    "uid": 0,
+    "gid": 0
+  },
+  {
+    "path": "srv/unified/web/display/default-settings.txt",
+    "sha256": "de1cdca5f867673b2da7cefe82f24cc4675ed174496559b3a67dd51810980606",
+    "size": 283,
+    "mode": "0o644",
+    "uid": 0,
+    "gid": 0
+  },
+  {
+    "path": "srv/unified/web/display/digest.html",
+    "sha256": "92fd60995bafa38f357b04707fdbf0fc2b9c12c04653c08332026be4a2c6a7e3",
+    "size": 2627,
+    "mode": "0o644",
+    "uid": 0,
+    "gid": 0
+  },
+  {
+    "path": "srv/unified/web/display/digest.html.br",
+    "sha256": "7af951c0e90404cd1d1b74facbc89670f6493209290fb1fe563c8225cc10e8a7",
+    "size": 896,
+    "mode": "0o644",
+    "uid": 0,
+    "gid": 0
+  },
+  {
+    "path": "srv/unified/web/display/digest.html.gz",
+    "sha256": "2fd7a7200b71410516061d3feca7cedadf04e22082d09bbe2910cf04060e7787",
+    "size": 1150,
+    "mode": "0o644",
+    "uid": 0,
+    "gid": 0
+  },
+  {
+    "path": "srv/unified/web/display/favicon.ico",
+    "sha256": "e8ba79bd89458ef701f71f13f3ab8b28fa69a178b60686e96e4f0a2a629db0f3",
+    "size": 7358,
+    "mode": "0o644",
+    "uid": 0,
+    "gid": 0
+  },
+  {
+    "path": "srv/unified/web/display/favicon.ico.br",
+    "sha256": "c1cfef282f35b4f7e08d03e8c767e9f8fac0a71fe80ee76fe4b359e009a12b8d",
+    "size": 1094,
+    "mode": "0o644",
+    "uid": 0,
+    "gid": 0
+  },
+  {
+    "path": "srv/unified/web/display/favicon.ico.gz",
+    "sha256": "6973d2253253527a073d8c0782cf3752eb1ba1b393ff55577d320f6e32e7f6e4",
+    "size": 1228,
+    "mode": "0o644",
+    "uid": 0,
+    "gid": 0
+  },
+  {
+    "path": "srv/unified/web/display/favicon.png",
+    "sha256": "1529d270bc56289a4763ce76c8e280484d2ca9d0bd4e317eecedac4c95a0caa4",
+    "size": 2950,
+    "mode": "0o644",
+    "uid": 0,
+    "gid": 0
+  },
+  {
+    "path": "srv/unified/web/display/icons/authentication.png",
+    "sha256": "2eedf8ecc2079701b19d5b9f1b4f1ec987ffca9d4284c774e422b2bc67ad5a1d",
+    "size": 2083,
+    "mode": "0o644",
+    "uid": 0,
+    "gid": 0
+  },
+  {
+    "path": "srv/unified/web/display/icons/close.png",
+    "sha256": "cb0564ff04cc8ff98cb69cf4d6e7f66996b7234214374138a521c2dbbdc70edc",
+    "size": 333,
+    "mode": "0o644",
+    "uid": 0,
+    "gid": 0
+  },
+  {
+    "path": "srv/unified/web/display/icons/default_cursor.png",
+    "sha256": "5a114e0f592bded6c6a1f7713cf266902eaea50ca2669cae71c539c2fe8b1aea",
+    "size": 1252,
+    "mode": "0o644",
+    "uid": 0,
+    "gid": 0
+  },
+  {
+    "path": "srv/unified/web/display/icons/empty.png",
+    "sha256": "7ddaf1600b7fbb511c963d8896f08946cad020dda60a3df3f05aa62bbda68e3e",
+    "size": 356,
+    "mode": "0o644",
+    "uid": 0,
+    "gid": 0
+  },
+  {
+    "path": "srv/unified/web/display/icons/eye-slash.png",
+    "sha256": "0f17b52c83666359bd9f87630791a9f8741636f217e1010a8258bce9369d878d",
+    "size": 5347,
+    "mode": "0o644",
+    "uid": 0,
+    "gid": 0
+  },
+  {
+    "path": "srv/unified/web/display/icons/eye.png",
+    "sha256": "16c11dab531869c3a2dc406c492eb4c4e2d2025131f0190954b63900ca567a19",
+    "size": 1115,
+    "mode": "0o644",
+    "uid": 0,
+    "gid": 0
+  },
+  {
+    "path": "srv/unified/web/display/icons/fullscreen.png",
+    "sha256": "e2c99faf667db64d7d8c1dbb79dac273ae9922d1264e5b93264aafb2c73ff8f5",
+    "size": 1069,
+    "mode": "0o644",
+    "uid": 0,
+    "gid": 0
+  },
+  {
+    "path": "srv/unified/web/display/icons/materialicons-regular.ttf",
+    "sha256": "ef149f08bdd2ff09a4e2c8573476b7b0f3fbb15b623954ade59899e7175bedda",
+    "size": 356840,
+    "mode": "0o644",
+    "uid": 0,
+    "gid": 0
+  },
+  {
+    "path": "srv/unified/web/display/icons/materialicons-regular.ttf.br",
+    "sha256": "a54a5ad2a136403a3898428bff1adf46aed95b7b7b68bbdbd3dab22fde11668b",
+    "size": 156060,
+    "mode": "0o644",
+    "uid": 0,
+    "gid": 0
+  },
+  {
+    "path": "srv/unified/web/display/icons/materialicons-regular.ttf.gz",
+    "sha256": "59289f2c9f3f8179d91d9106f952946cd098e7b4c5b425ec2e76c070eee54173",
+    "size": 173597,
+    "mode": "0o644",
+    "uid": 0,
+    "gid": 0
+  },
+  {
+    "path": "srv/unified/web/display/icons/materialicons-regular.woff",
+    "sha256": "bba53cfd93ba28f437043f1d1e5be17f857264a2f95bb8d1ab08c72d29e51b51",
+    "size": 183892,
+    "mode": "0o644",
+    "uid": 0,
+    "gid": 0
+  },
+  {
+    "path": "srv/unified/web/display/icons/materialicons-regular.woff.br",
+    "sha256": "d58fa0e04ec223cadf88b2da913377a080c9a971fec3362a4585dd02950840e0",
+    "size": 181301,
+    "mode": "0o644",
+    "uid": 0,
+    "gid": 0
+  },
+  {
+    "path": "srv/unified/web/display/icons/materialicons-regular.woff.gz",
+    "sha256": "981b919a02246c6ed660b478d7a2eca866ab8f5ba4a764fcb19d24abf0283325",
+    "size": 182005,
+    "mode": "0o644",
+    "uid": 0,
+    "gid": 0
+  },
+  {
+    "path": "srv/unified/web/display/icons/materialicons-regular.woff2",
+    "sha256": "8265f64786397d6b832d1ca0aafdf149ad84e72759fffa9f7272e91a0fb015d1",
+    "size": 128352,
+    "mode": "0o644",
+    "uid": 0,
+    "gid": 0
+  },
+  {
+    "path": "srv/unified/web/display/icons/materialicons-regular.woff2.br",
+    "sha256": "fbe6f62690fe91c8356f62db4eb76b89d38587edd9cd36a276ffeace0f1f64df",
+    "size": 128357,
+    "mode": "0o644",
+    "uid": 0,
+    "gid": 0
+  },
+  {
+    "path": "srv/unified/web/display/icons/materialicons-regular.woff2.gz",
+    "sha256": "e7e237950a77e493a9e552e4fed286bde538b5caf89dc49e95cee82f7f1eb98b",
+    "size": 128390,
+    "mode": "0o644",
+    "uid": 0,
+    "gid": 0
+  },
+  {
+    "path": "srv/unified/web/display/icons/maximize.png",
+    "sha256": "ce4b460add6ea8362041223ea854fe362b0afe5fe043518c6c6276749cb3bd1c",
+    "size": 291,
+    "mode": "0o644",
+    "uid": 0,
+    "gid": 0
+  },
+  {
+    "path": "srv/unified/web/display/icons/minimize.png",
+    "sha256": "98c3164f0ea9ba67c0c6a1d8fd99f34ceda08cabe05c0ede1dab0522ca33c3cc",
+    "size": 199,
+    "mode": "0o644",
+    "uid": 0,
+    "gid": 0
+  },
+  {
+    "path": "srv/unified/web/display/icons/noicon.png",
+    "sha256": "3d67f714719d678314a912b16e6467970f3c323d01e6bab9d185a9b20a67731a",
+    "size": 133,
+    "mode": "0o644",
+    "uid": 0,
+    "gid": 0
+  },
+  {
+    "path": "srv/unified/web/display/icons/unfullscreen.png",
+    "sha256": "4ce0f63eb51205b87f5473b093361b1788e2de4194c54ddfd4e8602485c740f1",
+    "size": 543,
+    "mode": "0o644",
+    "uid": 0,
+    "gid": 0
+  },
+  {
+    "path": "srv/unified/web/display/icons/xpra-logo.png",
+    "sha256": "d6e628dec7451f7d7f511b33442725f6d798e82c9b6c898ee666c33afde68a24",
+    "size": 6657,
+    "mode": "0o644",
+    "uid": 0,
+    "gid": 0
+  },
+  {
+    "path": "srv/unified/web/display/index.html",
+    "sha256": "b1b11245e6cf26115170a23c5b59b05e435a3285625a6c6d56f69c57194bbc60",
+    "size": 57264,
+    "mode": "0o644",
+    "uid": 0,
+    "gid": 0
+  },
+  {
+    "path": "srv/unified/web/display/js/Client.js",
+    "sha256": "2c21cd52b6bc0433722d9428217736a584df98ebbcd17b03b579b52c934415a3",
+    "size": 105355,
+    "mode": "0o644",
+    "uid": 0,
+    "gid": 0
+  },
+  {
+    "path": "srv/unified/web/display/js/Client.js.br",
+    "sha256": "35420b47e15fb02e83641871b793d0c534e8da3a3b89ee996b794019105eb860",
+    "size": 26234,
+    "mode": "0o644",
+    "uid": 0,
+    "gid": 0
+  },
+  {
+    "path": "srv/unified/web/display/js/Client.js.gz",
+    "sha256": "0c0205bd4eb1c70a5cd35eceb1acd38ad522cca2b73e71bbf8952ee511b4cdce",
+    "size": 30147,
+    "mode": "0o644",
+    "uid": 0,
+    "gid": 0
+  },
+  {
+    "path": "srv/unified/web/display/js/Constants.js",
+    "sha256": "4f4abebc191a23cfe7b3c031c929c0f030a3d3a7c142a3dd55c33ee5037c9cdf",
+    "size": 2696,
+    "mode": "0o644",
+    "uid": 0,
+    "gid": 0
+  },
+  {
+    "path": "srv/unified/web/display/js/Constants.js.br",
+    "sha256": "3e9520aa30aba8e2e909089286ff9d5aa0e8073f40b812ac1ebe8654d5b5eea5",
+    "size": 891,
+    "mode": "0o644",
+    "uid": 0,
+    "gid": 0
+  },
+  {
+    "path": "srv/unified/web/display/js/Constants.js.gz",
+    "sha256": "fea1e05684daef396899460d625206b8e63697ede5759f898d45e0146abbec26",
+    "size": 1091,
+    "mode": "0o644",
+    "uid": 0,
+    "gid": 0
+  },
+  {
+    "path": "srv/unified/web/display/js/DecodeWorker.js",
+    "sha256": "cd07db1c2268297a9aae1ecdc4a432940783346e151956dfb1fbc73c2c803625",
+    "size": 6898,
+    "mode": "0o644",
+    "uid": 0,
+    "gid": 0
+  },
+  {
+    "path": "srv/unified/web/display/js/DecodeWorker.js.br",
+    "sha256": "dd791fbf74b41dd672a8a738e4d94b056df7fe8d5dfe42824683f22dff324b16",
+    "size": 2153,
+    "mode": "0o644",
+    "uid": 0,
+    "gid": 0
+  },
+  {
+    "path": "srv/unified/web/display/js/DecodeWorker.js.gz",
+    "sha256": "70e860d84a4ae7ecfaa1ea8ff00d049287dbc662f21bb3dfd17fc31f83c243a3",
+    "size": 2534,
+    "mode": "0o644",
+    "uid": 0,
+    "gid": 0
+  },
+  {
+    "path": "srv/unified/web/display/js/ImageDecoder.js",
+    "sha256": "e71c55089158315feb5e5378a710d306fb2113c662732f393d9fbf3038c7f873",
+    "size": 701,
+    "mode": "0o644",
+    "uid": 0,
+    "gid": 0
+  },
+  {
+    "path": "srv/unified/web/display/js/ImageDecoder.js.br",
+    "sha256": "959c3c5a41d3bf2d0fa089cd8b726347171adedb4458813ef6a91fe1b2a15544",
+    "size": 318,
+    "mode": "0o644",
+    "uid": 0,
+    "gid": 0
+  },
+  {
+    "path": "srv/unified/web/display/js/ImageDecoder.js.gz",
+    "sha256": "ba98d846fa0d6086c852790e7b4929d7004318205bae0342bd14d62c7a379891",
+    "size": 379,
+    "mode": "0o644",
+    "uid": 0,
+    "gid": 0
+  },
+  {
+    "path": "srv/unified/web/display/js/Keycodes.js",
+    "sha256": "69a135aefd1743bc01bf3619ce2a374c2ed3afeb2d1c3ac7a6f77b109ffa0148",
+    "size": 31137,
+    "mode": "0o644",
+    "uid": 0,
+    "gid": 0
+  },
+  {
+    "path": "srv/unified/web/display/js/Keycodes.js.br",
+    "sha256": "01b5cdbf77b1ed2befcabe6087891c871401f6df4a9ca86e2d1cc41621c27a0b",
+    "size": 8055,
+    "mode": "0o644",
+    "uid": 0,
+    "gid": 0
+  },
+  {
+    "path": "srv/unified/web/display/js/Keycodes.js.gz",
+    "sha256": "d5164d4183c09f7ff7c6b6ce5c052167677391e3e3b2aba34b5a6843d339732b",
+    "size": 10368,
+    "mode": "0o644",
+    "uid": 0,
+    "gid": 0
+  },
+  {
+    "path": "srv/unified/web/display/js/MediaSourceUtil.js",
+    "sha256": "3639072ed61ffcbb21ff0fb85c8589990c1c856a5aa8437341b6e12435896d9e",
+    "size": 6689,
+    "mode": "0o644",
+    "uid": 0,
+    "gid": 0
+  },
+  {
+    "path": "srv/unified/web/display/js/MediaSourceUtil.js.br",
+    "sha256": "c4544ed21f26c6754c1fedfc031c59d0aaa162f63d54ca1c388a7929e942ee27",
+    "size": 1662,
+    "mode": "0o644",
+    "uid": 0,
+    "gid": 0
+  },
+  {
+    "path": "srv/unified/web/display/js/MediaSourceUtil.js.gz",
+    "sha256": "e6e58284141ba4062c46b46a1d3410dd6a4d8c11f21da8631474189b78c27c2d",
+    "size": 1870,
+    "mode": "0o644",
+    "uid": 0,
+    "gid": 0
+  },
+  {
+    "path": "srv/unified/web/display/js/Menu.js",
+    "sha256": "f362e1a1777e24a21f8f31105185dc76dc6893f7fd1bd90d1dccbdb6d033c2cd",
+    "size": 1587,
+    "mode": "0o644",
+    "uid": 0,
+    "gid": 0
+  },
+  {
+    "path": "srv/unified/web/display/js/Menu.js.br",
+    "sha256": "0e03f1a9355bae27383962233809ac8c038d57469baf0059fd53d91561d687b6",
+    "size": 397,
+    "mode": "0o644",
+    "uid": 0,
+    "gid": 0
+  },
+  {
+    "path": "srv/unified/web/display/js/Menu.js.gz",
+    "sha256": "fd70429b61f13d6daf6482d7743d40c952deee097e6d150f963a4021ad38ce27",
+    "size": 487,
+    "mode": "0o644",
+    "uid": 0,
+    "gid": 0
+  },
+  {
+    "path": "srv/unified/web/display/js/MenuCustom.js",
+    "sha256": "5a28b0a5c6def35db13ab7e22f6b4ed232b6215a8cf4f194c12bbf2e56137c5b",
+    "size": 3315,
+    "mode": "0o644",
+    "uid": 0,
+    "gid": 0
+  },
+  {
+    "path": "srv/unified/web/display/js/MenuCustom.js.br",
+    "sha256": "c56824977aaf7212349be54f3697b288e87eb7eb37d282f3efa46941de714da6",
+    "size": 876,
+    "mode": "0o644",
+    "uid": 0,
+    "gid": 0
+  },
+  {
+    "path": "srv/unified/web/display/js/MenuCustom.js.gz",
+    "sha256": "69c3e11303e6221e4f3e798c4f69cf4bb8e24f41626b9a421c22eeb40ba8482e",
+    "size": 1057,
+    "mode": "0o644",
+    "uid": 0,
+    "gid": 0
+  },
+  {
+    "path": "srv/unified/web/display/js/Notifications.js",
+    "sha256": "4f001dfb8ccdd09de0e981e487fac9855b8206738f0f22dd4470ca03cd53ed30",
+    "size": 2720,
+    "mode": "0o644",
+    "uid": 0,
+    "gid": 0
+  },
+  {
+    "path": "srv/unified/web/display/js/Notifications.js.br",
+    "sha256": "76e973223417b1f09e254e5ff89d8cac9eee9c7f3ac26a4115e2bd2ecb861492",
+    "size": 773,
+    "mode": "0o644",
+    "uid": 0,
+    "gid": 0
+  },
+  {
+    "path": "srv/unified/web/display/js/Notifications.js.gz",
+    "sha256": "0bddb94496274d38d6efa1e2dedbd749ff5d183156dc35cfed9609df8845440e",
+    "size": 914,
+    "mode": "0o644",
+    "uid": 0,
+    "gid": 0
+  },
+  {
+    "path": "srv/unified/web/display/js/OffscreenDecodeWorker.js",
+    "sha256": "17e435162241d5fe543c13e7bf027374b34b8f21f8242d3ab4e11c18996dec12",
+    "size": 5516,
+    "mode": "0o644",
+    "uid": 0,
+    "gid": 0
+  },
+  {
+    "path": "srv/unified/web/display/js/OffscreenDecodeWorker.js.br",
+    "sha256": "2c3845df867ac648096ea7ad9b82e577943eb1ae1088f8ca30e8baca11fd4d14",
+    "size": 1744,
+    "mode": "0o644",
+    "uid": 0,
+    "gid": 0
+  },
+  {
+    "path": "srv/unified/web/display/js/OffscreenDecodeWorker.js.gz",
+    "sha256": "9bc338a9cac6ec9944800b25fbb639fcefc9d1117a801c36c39914d6cc14803e",
+    "size": 2004,
+    "mode": "0o644",
+    "uid": 0,
+    "gid": 0
+  },
+  {
+    "path": "srv/unified/web/display/js/OffscreenDecodeWorkerHelper.js",
+    "sha256": "61be30c388fe9423d1abe1ee381efa0a9581ea819ca5c828213937d97e7351c0",
+    "size": 1198,
+    "mode": "0o644",
+    "uid": 0,
+    "gid": 0
+  },
+  {
+    "path": "srv/unified/web/display/js/OffscreenDecodeWorkerHelper.js.br",
+    "sha256": "e1741ab756f1ed645c41cb289319dea245b6b846b2c549425b14b7b3f4d2e52e",
+    "size": 425,
+    "mode": "0o644",
+    "uid": 0,
+    "gid": 0
+  },
+  {
+    "path": "srv/unified/web/display/js/OffscreenDecodeWorkerHelper.js.gz",
+    "sha256": "66eb6c67939e579be5f186b102d6d65a1ac2a3ed7ffdc32b300fcf0a71b6fd17",
+    "size": 501,
+    "mode": "0o644",
+    "uid": 0,
+    "gid": 0
+  },
+  {
+    "path": "srv/unified/web/display/js/Protocol.js",
+    "sha256": "2962702a263ebdb91c10bf5d265d877f51dbcead1c85631c7989a77ef283ef1b",
+    "size": 11904,
+    "mode": "0o644",
+    "uid": 0,
+    "gid": 0
+  },
+  {
+    "path": "srv/unified/web/display/js/Protocol.js.br",
+    "sha256": "9c3c84eb3180098a48d57b5863592e3c9db42086da8c0a6fd2d3b52d4b442376",
+    "size": 3370,
+    "mode": "0o644",
+    "uid": 0,
+    "gid": 0
+  },
+  {
+    "path": "srv/unified/web/display/js/Protocol.js.gz",
+    "sha256": "2ba1bae4d4230efeba3e388e6dc0974c2df23f1ca2ba82734ccd98d74ddf6af8",
+    "size": 3750,
+    "mode": "0o644",
+    "uid": 0,
+    "gid": 0
+  },
+  {
+    "path": "srv/unified/web/display/js/RgbHelpers.js",
+    "sha256": "43a4e4b1da91b8e68d82edcc0c5f37ed9be30dd94afbf0f8415772165a3fbaa1",
+    "size": 1325,
+    "mode": "0o644",
+    "uid": 0,
+    "gid": 0
+  },
+  {
+    "path": "srv/unified/web/display/js/RgbHelpers.js.br",
+    "sha256": "78716b2015e166bffc2517064605f0b73779dfef29ef2b45ee0987256f8bc2af",
+    "size": 374,
+    "mode": "0o644",
+    "uid": 0,
+    "gid": 0
+  },
+  {
+    "path": "srv/unified/web/display/js/RgbHelpers.js.gz",
+    "sha256": "adcbc30352a99758ce23c082d160deea8ba9eb3a9d0c72d802f02e2de6ff9a5e",
+    "size": 440,
+    "mode": "0o644",
+    "uid": 0,
+    "gid": 0
+  },
+  {
+    "path": "srv/unified/web/display/js/Utilities.js",
+    "sha256": "06ee53ce4e3ff46769d78a840d0739aee961d3d27c7675392b892f0775a0f2dc",
+    "size": 13947,
+    "mode": "0o644",
+    "uid": 0,
+    "gid": 0
+  },
+  {
+    "path": "srv/unified/web/display/js/Utilities.js.br",
+    "sha256": "a253dd1ff0b452231eb4c7797a15680d7a72d6366c1715f8c4dbee3cdcdae047",
+    "size": 4430,
+    "mode": "0o644",
+    "uid": 0,
+    "gid": 0
+  },
+  {
+    "path": "srv/unified/web/display/js/Utilities.js.gz",
+    "sha256": "4f58415136d10bb739ea30c12889f078e39d9c47cc053939d8c442efbfbec265",
+    "size": 4968,
+    "mode": "0o644",
+    "uid": 0,
+    "gid": 0
+  },
+  {
+    "path": "srv/unified/web/display/js/VideoDecoder.js",
+    "sha256": "ccb03eaf84452bb8a6af9c2f533c938f833f006c92b788b53c5c288814041058",
+    "size": 3476,
+    "mode": "0o644",
+    "uid": 0,
+    "gid": 0
+  },
+  {
+    "path": "srv/unified/web/display/js/VideoDecoder.js.br",
+    "sha256": "4049e9fd79dbdd20ad39f06833743a0e1122980edd0bef200d4b563b356696e7",
+    "size": 1079,
+    "mode": "0o644",
+    "uid": 0,
+    "gid": 0
+  },
+  {
+    "path": "srv/unified/web/display/js/VideoDecoder.js.gz",
+    "sha256": "a51656a69cb1be92464c555d030cc8e94439e6ab66d5f6ffea43bd9ea846fceb",
+    "size": 1227,
+    "mode": "0o644",
+    "uid": 0,
+    "gid": 0
+  },
+  {
+    "path": "srv/unified/web/display/js/WebTransport.js",
+    "sha256": "4edbd1de6efc745cc567c833828fb697ddfa8e52911dcbbd40264610c569330e",
+    "size": 5822,
+    "mode": "0o644",
+    "uid": 0,
+    "gid": 0
+  },
+  {
+    "path": "srv/unified/web/display/js/WebTransport.js.br",
+    "sha256": "2e7021d81aecb192f9e5a88f7ae1d717a9563b25f81e7e8c068b4b1c06392962",
+    "size": 1648,
+    "mode": "0o644",
+    "uid": 0,
+    "gid": 0
+  },
+  {
+    "path": "srv/unified/web/display/js/WebTransport.js.gz",
+    "sha256": "3f5eac574ca7710247fdd8dcfa694d0807c45e13d3ee81c17c13544c195fb801",
+    "size": 1857,
+    "mode": "0o644",
+    "uid": 0,
+    "gid": 0
+  },
+  {
+    "path": "srv/unified/web/display/js/Window.js",
+    "sha256": "24ea35721c9e18255dd12d2a8c912cf75d3be3fd5f3ced27c14bd0833400e35b",
+    "size": 26940,
+    "mode": "0o644",
+    "uid": 0,
+    "gid": 0
+  },
+  {
+    "path": "srv/unified/web/display/js/Window.js.br",
+    "sha256": "8e7ecb5951f3660dfbd8270ef558002c33d50d6b462578a05c779f8ec5a8b4d7",
+    "size": 6670,
+    "mode": "0o644",
+    "uid": 0,
+    "gid": 0
+  },
+  {
+    "path": "srv/unified/web/display/js/Window.js.gz",
+    "sha256": "4b11f1c72e12beca234f7c703463d286935d42fcd4e27a202b7829071ebe229d",
+    "size": 7571,
+    "mode": "0o644",
+    "uid": 0,
+    "gid": 0
+  },
+  {
+    "path": "srv/unified/web/display/js/lib/FileSaver.js",
+    "sha256": "2df81c9e3e7f68a790c0c74ddafb257c24c088b282a701249907596f1d00b1c6",
+    "size": 3073,
+    "mode": "0o644",
+    "uid": 0,
+    "gid": 0
+  },
+  {
+    "path": "srv/unified/web/display/js/lib/FileSaver.js.br",
+    "sha256": "2b893a0d91165ad5f628c72153f56a8c3cb8278b8e0dd3cb98521a5eff7e3d53",
+    "size": 1111,
+    "mode": "0o644",
+    "uid": 0,
+    "gid": 0
+  },
+  {
+    "path": "srv/unified/web/display/js/lib/FileSaver.js.gz",
+    "sha256": "43dd69cb737d07c4d3e85309e2cf2a1493755f94cdff919999363adc87e9f51d",
+    "size": 1284,
+    "mode": "0o644",
+    "uid": 0,
+    "gid": 0
+  },
+  {
+    "path": "srv/unified/web/display/js/lib/StreamSaver.js",
+    "sha256": "08b14981c2fcd76d46db803febf4c0dd64f2e27f998f35b20a44c7e312afd351",
+    "size": 5357,
+    "mode": "0o644",
+    "uid": 0,
+    "gid": 0
+  },
+  {
+    "path": "srv/unified/web/display/js/lib/StreamSaver.js.br",
+    "sha256": "b2341bb76d8d063d3b77ef0b565ac1462c4f639232677ce1481980278a3ad28c",
+    "size": 1644,
+    "mode": "0o644",
+    "uid": 0,
+    "gid": 0
+  },
+  {
+    "path": "srv/unified/web/display/js/lib/StreamSaver.js.gz",
+    "sha256": "917ae9c275b5bda9641c0d80d4526632e8b0b4fd6d710cf7b732fc87c9c99591",
+    "size": 1932,
+    "mode": "0o644",
+    "uid": 0,
+    "gid": 0
+  },
+  {
+    "path": "srv/unified/web/display/js/lib/aurora/aac.js",
+    "sha256": "2f76bf41c28a9af064714e99df9b57fad8d976668ceeb5706c1b1c52ccac4256",
+    "size": 93846,
+    "mode": "0o644",
+    "uid": 0,
+    "gid": 0
+  },
+  {
+    "path": "srv/unified/web/display/js/lib/aurora/aac.js.br",
+    "sha256": "a54eea917cef75a5e619f41a92fc062897d36e62a08f508df4fba13774250840",
+    "size": 25817,
+    "mode": "0o644",
+    "uid": 0,
+    "gid": 0
+  },
+  {
+    "path": "srv/unified/web/display/js/lib/aurora/aac.js.gz",
+    "sha256": "3816734d754dc2e0a08f0a1936e542cd98d64027beeafaa53057379b94e8fe03",
+    "size": 33933,
+    "mode": "0o644",
+    "uid": 0,
+    "gid": 0
+  },
+  {
+    "path": "srv/unified/web/display/js/lib/aurora/aurora-xpra.js",
+    "sha256": "97b56b2f1c51d2d8679377effac96abd86be48bbcd0cbc1534045b8585fcc28f",
+    "size": 824,
+    "mode": "0o644",
+    "uid": 0,
+    "gid": 0
+  },
+  {
+    "path": "srv/unified/web/display/js/lib/aurora/aurora-xpra.js.br",
+    "sha256": "0ce5514bdb92020af9029db13877d125bd450762c6c9ba488e270da240edd821",
+    "size": 304,
+    "mode": "0o644",
+    "uid": 0,
+    "gid": 0
+  },
+  {
+    "path": "srv/unified/web/display/js/lib/aurora/aurora-xpra.js.gz",
+    "sha256": "85aad702bd36057e8032addb5f1bc609fb0468838395e0528c8c6953d6765cff",
+    "size": 344,
+    "mode": "0o644",
+    "uid": 0,
+    "gid": 0
+  },
+  {
+    "path": "srv/unified/web/display/js/lib/aurora/aurora.js",
+    "sha256": "02b408aee6b75f1d9fb820cf5fb0e7290924d4bbdf836c9efd80a8810d0abfee",
+    "size": 84367,
+    "mode": "0o644",
+    "uid": 0,
+    "gid": 0
+  },
+  {
+    "path": "srv/unified/web/display/js/lib/aurora/aurora.js.br",
+    "sha256": "349832049c1f48c172bb53f42b3c5e36ab1f2a51a32434be6b658823fda1c735",
+    "size": 16205,
+    "mode": "0o644",
+    "uid": 0,
+    "gid": 0
+  },
+  {
+    "path": "srv/unified/web/display/js/lib/aurora/aurora.js.gz",
+    "sha256": "fafd6aefb45f03c98b0d76b67bb17417b2ef9bc276e13cc85705a1a60b1d6f7f",
+    "size": 18195,
+    "mode": "0o644",
+    "uid": 0,
+    "gid": 0
+  },
+  {
+    "path": "srv/unified/web/display/js/lib/aurora/flac.js",
+    "sha256": "97ee8944b5aa85dc28f126e2be996f33592c7418962c433bd01180d664ea2335",
+    "size": 12325,
+    "mode": "0o644",
+    "uid": 0,
+    "gid": 0
+  },
+  {
+    "path": "srv/unified/web/display/js/lib/aurora/flac.js.br",
+    "sha256": "e677376a11bedbd9931cab6f7d4342433ef54e564f2be31514f808d64813e07b",
+    "size": 3486,
+    "mode": "0o644",
+    "uid": 0,
+    "gid": 0
+  },
+  {
+    "path": "srv/unified/web/display/js/lib/aurora/flac.js.gz",
+    "sha256": "bd612a5669f025b02b35d9fb4771849e0fd4e5c6f7da8457e5e4d1777e5cec8c",
+    "size": 3844,
+    "mode": "0o644",
+    "uid": 0,
+    "gid": 0
+  },
+  {
+    "path": "srv/unified/web/display/js/lib/aurora/mp3.js",
+    "sha256": "67b3f97c27fb33d8c53e1b69e76d0512db8d98050c5c25252f920d9ddb7ee28c",
+    "size": 94418,
+    "mode": "0o644",
+    "uid": 0,
+    "gid": 0
+  },
+  {
+    "path": "srv/unified/web/display/js/lib/aurora/mp3.js.br",
+    "sha256": "8a0f5b5e52cab3886a6718393aa26ff2b40ebc73add33c27777153cf73083685",
+    "size": 20781,
+    "mode": "0o644",
+    "uid": 0,
+    "gid": 0
+  },
+  {
+    "path": "srv/unified/web/display/js/lib/aurora/mp3.js.gz",
+    "sha256": "e7866a07aed888487e5d0563e00d9067cee591deef7d96081030524b41d01969",
+    "size": 24714,
+    "mode": "0o644",
+    "uid": 0,
+    "gid": 0
+  },
+  {
+    "path": "srv/unified/web/display/js/lib/brotli_decode.js",
+    "sha256": "f5831238a4f0b13fbe5de1f96ec5fc70f04154eac3b70ac46a0716bd7c962267",
+    "size": 156149,
+    "mode": "0o644",
+    "uid": 0,
+    "gid": 0
+  },
+  {
+    "path": "srv/unified/web/display/js/lib/brotli_decode.js.br",
+    "sha256": "7828554d2a151103955af28121c5317ef2d50e801e6a70a494ff7ead81819f79",
+    "size": 44339,
+    "mode": "0o644",
+    "uid": 0,
+    "gid": 0
+  },
+  {
+    "path": "srv/unified/web/display/js/lib/brotli_decode.js.gz",
+    "sha256": "e330929db5db5866f32b409c79bacadc3f772cb62193a22b61ad4f1f0257f049",
+    "size": 66944,
+    "mode": "0o644",
+    "uid": 0,
+    "gid": 0
+  },
+  {
+    "path": "srv/unified/web/display/js/lib/detect-zoom.js",
+    "sha256": "e28430501e334f95c3d145ceb6f8bfce0ef79447d9b92233b3f1eb0c980a1e9b",
+    "size": 3428,
+    "mode": "0o644",
+    "uid": 0,
+    "gid": 0
+  },
+  {
+    "path": "srv/unified/web/display/js/lib/detect-zoom.js.br",
+    "sha256": "ebc8620de32bdf96c6b0c4cc1cafdf7700457081c1a06e6a72c2078526ccf415",
+    "size": 1054,
+    "mode": "0o644",
+    "uid": 0,
+    "gid": 0
+  },
+  {
+    "path": "srv/unified/web/display/js/lib/detect-zoom.js.gz",
+    "sha256": "18511a2752ffa174d83a89d2481c30c4495553d6a27838d1451fd1dcce783e13",
+    "size": 1310,
+    "mode": "0o644",
+    "uid": 0,
+    "gid": 0
+  },
+  {
+    "path": "srv/unified/web/display/js/lib/hmac.js",
+    "sha256": "63697835fcb5d9c39541fa98785741330fed51179d118da234686dd15925e5d7",
+    "size": 2821,
+    "mode": "0o644",
+    "uid": 0,
+    "gid": 0
+  },
+  {
+    "path": "srv/unified/web/display/js/lib/hmac.js.br",
+    "sha256": "f61b6acf852351e5f5161306a4c84405f0a309ad0bbaf1ec24d28e74b65c4a3a",
+    "size": 1022,
+    "mode": "0o644",
+    "uid": 0,
+    "gid": 0
+  },
+  {
+    "path": "srv/unified/web/display/js/lib/hmac.js.gz",
+    "sha256": "70fb16aa9aa275789c8fbcdf7eb957739315fab90bed7d649a2fb0bd2c4f95fa",
+    "size": 1096,
+    "mode": "0o644",
+    "uid": 0,
+    "gid": 0
+  },
+  {
+    "path": "srv/unified/web/display/js/lib/jquery-transform-draggable.js",
+    "sha256": "05c2088930bb3feb5bab17aa558c78d0ec3a5fbc58e00ce5d60e622a280d8c59",
+    "size": 3420,
+    "mode": "0o644",
+    "uid": 0,
+    "gid": 0
+  },
+  {
+    "path": "srv/unified/web/display/js/lib/jquery-transform-draggable.js.br",
+    "sha256": "d8e56bde8bd4414c611eafed89cbc6b7b007f11a0d33c60f7aba085fafade1a4",
+    "size": 801,
+    "mode": "0o644",
+    "uid": 0,
+    "gid": 0
+  },
+  {
+    "path": "srv/unified/web/display/js/lib/jquery-transform-draggable.js.gz",
+    "sha256": "3fbd4095b5702d41aecd6f38e630d745490b86ac2b79f0716f83bbe145134457",
+    "size": 926,
+    "mode": "0o644",
+    "uid": 0,
+    "gid": 0
+  },
+  {
+    "path": "srv/unified/web/display/js/lib/jquery-ui.js",
+    "sha256": "f0079e1c0b1bbc74fc18d6f34861a82fa1003da79ae9cf0946502cec95d6a028",
+    "size": 548651,
+    "mode": "0o644",
+    "uid": 0,
+    "gid": 0
+  },
+  {
+    "path": "srv/unified/web/display/js/lib/jquery.ba-throttle-debounce.js",
+    "sha256": "49bbcbcce56e396db98bd0f62d54d84d8c16787de514f8c7e3c4d0f0f0ddcc63",
+    "size": 899,
+    "mode": "0o644",
+    "uid": 0,
+    "gid": 0
+  },
+  {
+    "path": "srv/unified/web/display/js/lib/jquery.ba-throttle-debounce.js.br",
+    "sha256": "c91e8bbe5422e2fef15b4523af7b136f3e021803e95502c19de68eea0f45e0be",
+    "size": 344,
+    "mode": "0o644",
+    "uid": 0,
+    "gid": 0
+  },
+  {
+    "path": "srv/unified/web/display/js/lib/jquery.ba-throttle-debounce.js.gz",
+    "sha256": "4947b65870a5ca6be0cc691b6fb95250671953bf2df0b21ddec07fb3fafbb448",
+    "size": 398,
+    "mode": "0o644",
+    "uid": 0,
+    "gid": 0
+  },
+  {
+    "path": "srv/unified/web/display/js/lib/jquery.js",
+    "sha256": "6e2dac4996733bcf0175f3b52bd55284f383909e50b9da3e258c4aefa9910ab7",
+    "size": 289782,
+    "mode": "0o644",
+    "uid": 0,
+    "gid": 0
+  },
+  {
+    "path": "srv/unified/web/display/js/lib/jsmpeg.js",
+    "sha256": "3a04f9db19a1fdc12afe299400ded8e9ffb2dbd7a497ddcc0a61e462df6f277d",
+    "size": 68450,
+    "mode": "0o644",
+    "uid": 0,
+    "gid": 0
+  },
+  {
+    "path": "srv/unified/web/display/js/lib/jsmpeg.js.br",
+    "sha256": "fcd59b2221c088ae0904f1a33dae07291244715085d1936d957e3a7bee556b2e",
+    "size": 16550,
+    "mode": "0o644",
+    "uid": 0,
+    "gid": 0
+  },
+  {
+    "path": "srv/unified/web/display/js/lib/jsmpeg.js.gz",
+    "sha256": "0a82ffe8e0456eab57f948cdfe65b858d3a707193c70b2dbaa63876d6e83dea1",
+    "size": 19173,
+    "mode": "0o644",
+    "uid": 0,
+    "gid": 0
+  },
+  {
+    "path": "srv/unified/web/display/js/lib/lz4.js",
+    "sha256": "5b31ff02ef3f1edc858f2b111c5d31a49a06aea275e25b479298d80f4cd39078",
+    "size": 8449,
+    "mode": "0o644",
+    "uid": 0,
+    "gid": 0
+  },
+  {
+    "path": "srv/unified/web/display/js/lib/lz4.js.br",
+    "sha256": "f18adec74e52a9073ececdc252ed4af1cc8c25de96c8f91ec68fdfebbaa73633",
+    "size": 2480,
+    "mode": "0o644",
+    "uid": 0,
+    "gid": 0
+  },
+  {
+    "path": "srv/unified/web/display/js/lib/lz4.js.gz",
+    "sha256": "ce0f9345fe624098ac7576d522abf16b94bba206756103ae14de07bd0e9fd0e4",
+    "size": 2656,
+    "mode": "0o644",
+    "uid": 0,
+    "gid": 0
+  },
+  {
+    "path": "srv/unified/web/display/js/lib/rencode.js",
+    "sha256": "a9648ce642b24e3ad7032a3db3648069e42a2fadb71a4e9e1c32852f5916daab",
+    "size": 11048,
+    "mode": "0o644",
+    "uid": 0,
+    "gid": 0
+  },
+  {
+    "path": "srv/unified/web/display/js/lib/rencode.js.br",
+    "sha256": "087e04efdf9c52ff3a2e58db1bd3ed7a55b5b728a750abb9d30c901830c462f1",
+    "size": 2888,
+    "mode": "0o644",
+    "uid": 0,
+    "gid": 0
+  },
+  {
+    "path": "srv/unified/web/display/js/lib/rencode.js.gz",
+    "sha256": "a9ef25995e9dd479e0a1b582f61c2b17fd4566603da60db05f6c629f4064d153",
+    "size": 3110,
+    "mode": "0o644",
+    "uid": 0,
+    "gid": 0
+  },
+  {
+    "path": "srv/unified/web/display/js/lib/simple-keyboard.js",
+    "sha256": "2ba9a6648f8f0c7877e4ad201c9602116320f69f41b2f6fe4fe3db9ae9ec6173",
+    "size": 166922,
+    "mode": "0o644",
+    "uid": 0,
+    "gid": 0
+  },
+  {
+    "path": "srv/unified/web/display/js/lib/simple-keyboard.js.br",
+    "sha256": "ca36b6f4e9b0208909f37f8181083b00c170950f957a203e8278ee374b994e99",
+    "size": 32557,
+    "mode": "0o644",
+    "uid": 0,
+    "gid": 0
+  },
+  {
+    "path": "srv/unified/web/display/js/lib/simple-keyboard.js.gz",
+    "sha256": "6c16634725550bb299441c1740ea8dccf20327288cc8a93bb51d97eb11930f85",
+    "size": 36860,
+    "mode": "0o644",
+    "uid": 0,
+    "gid": 0
+  },
+  {
+    "path": "srv/unified/web/display/js/lib/slick.js",
+    "sha256": "81059297329c84adb1e8625f8ab3d0e7f67a1266c6f8966cbaa5ac8de785cc34",
+    "size": 48631,
+    "mode": "0o644",
+    "uid": 0,
+    "gid": 0
+  },
+  {
+    "path": "srv/unified/web/display/js/lib/slick.js.br",
+    "sha256": "c023113dde2fc294fe957ecc7b860ea5d4b3be92d522e96c7385dff23cf8bb2f",
+    "size": 9694,
+    "mode": "0o644",
+    "uid": 0,
+    "gid": 0
+  },
+  {
+    "path": "srv/unified/web/display/js/lib/slick.js.gz",
+    "sha256": "84849c5c1c01b8e96e8179eeffd9e8b8712eb94cf4f8564cb41f18d1b9bc7b5b",
+    "size": 10765,
+    "mode": "0o644",
+    "uid": 0,
+    "gid": 0
+  },
+  {
+    "path": "srv/unified/web/display/js/lib/web-streams-ponyfill.es6.js",
+    "sha256": "9d92696cad1349d24dba17aaa6991f995adb55794204375d24f0bd3d0cd8cd29",
+    "size": 98811,
+    "mode": "0o644",
+    "uid": 0,
+    "gid": 0
+  },
+  {
+    "path": "srv/unified/web/display/js/lib/web-streams-ponyfill.es6.js.br",
+    "sha256": "1b7a2f0cbb342e76d5b9a20da978327895159f6c861a6b42d96090fe9ede30de",
+    "size": 13979,
+    "mode": "0o644",
+    "uid": 0,
+    "gid": 0
+  },
+  {
+    "path": "srv/unified/web/display/js/lib/web-streams-ponyfill.es6.js.gz",
+    "sha256": "608b24f3546d69490ca74c47c958eba26d9af97807f7c8ac5eaaabf74a794bf1",
+    "size": 16442,
+    "mode": "0o644",
+    "uid": 0,
+    "gid": 0
+  },
+  {
+    "path": "srv/unified/web/display/mitm.html",
+    "sha256": "2b6ae0f5bbca8fd2e281b476a898023e4e40c99d0f667234c04cd010bbbf6871",
+    "size": 6530,
+    "mode": "0o644",
+    "uid": 0,
+    "gid": 0
+  },
+  {
+    "path": "srv/unified/web/display/mitm.html.br",
+    "sha256": "89b7bd71691c2fa8acb01d1b2d21c14046fb2d2a6945b148b7f5bc02416db601",
+    "size": 1786,
+    "mode": "0o644",
+    "uid": 0,
+    "gid": 0
+  },
+  {
+    "path": "srv/unified/web/display/mitm.html.gz",
+    "sha256": "7191563526ab76ff0d8806cee38a4b99b69302779f192b5a1c01bc3d39bacca1",
+    "size": 2263,
+    "mode": "0o644",
+    "uid": 0,
+    "gid": 0
+  },
+  {
+    "path": "srv/unified/web/display/sw.js",
+    "sha256": "24f3541502eb439c6db4faab2233291a491826fb34636d727ee8844876dcccf9",
+    "size": 2104,
+    "mode": "0o644",
+    "uid": 0,
+    "gid": 0
+  },
+  {
+    "path": "srv/unified/web/display/sw.js.br",
+    "sha256": "b5a840a9b74fa1427c1865910db47f0671f08354b81182dfffe8022605296ce2",
+    "size": 779,
+    "mode": "0o644",
+    "uid": 0,
+    "gid": 0
+  },
+  {
+    "path": "srv/unified/web/display/sw.js.gz",
+    "sha256": "87598c4f743968f73a5c0313e9c7283c9caca14ac1968415ff66fc723114a995",
+    "size": 934,
+    "mode": "0o644",
+    "uid": 0,
+    "gid": 0
+  },
+  {
+    "path": "srv/unified/web/index.html",
+    "sha256": "86268652aef1b1d6d43e2a4b6bdbd373fa54c2c07c7bdf06ff921a41b294fb72",
+    "size": 2878,
+    "mode": "0o644",
+    "uid": 0,
+    "gid": 0
+  },
+  {
+    "path": "srv/unified/web/status.py",
+    "sha256": "61faf576069b64a0c0d94c873bb8e7324ef80f1a5b734d3718f4c29c9ad3479f",
+    "size": 1594,
+    "mode": "0o644",
+    "uid": 0,
+    "gid": 0
+  },
+  {
+    "path": "srv/unified/xorg-shared.conf",
+    "sha256": "83d700979dc484ef09d63c28b1d743f58c69423f3c55cbd619306dbcab44053e",
+    "size": 3075,
+    "mode": "0o644",
+    "uid": 0,
+    "gid": 0
+  },
+  {
+    "path": "usr/lib/python3/dist-packages/xpra/x11/desktop/model_base.py",
+    "sha256": "162f6156618b7347484a5102511a85a192564308984780479fb5c66748285209",
+    "size": 8254,
+    "mode": "0o644",
+    "uid": 0,
+    "gid": 0
+  },
+  {
+    "path": "usr/share/doc/xpra/copyright",
+    "sha256": "5901b18f71f37c9ce095b55bc072d73eeabf05abbe3041176c6c2df0c24a4ab9",
+    "size": 3546,
+    "mode": "0o644",
+    "uid": 0,
+    "gid": 0
+  },
+  {
+    "path": "usr/share/xpra/www/index.html",
+    "sha256": "a1edc60c3bc2a9e862e4ccc181544c769c60bb18443c24a5fcce5758b2bf838a",
+    "size": 57300,
+    "mode": "0o644",
+    "uid": 0,
+    "gid": 0
+  },
+  {
+    "path": "usr/share/xpra/www/index.html.br",
+    "sha256": "047072f5b62d0925ec267d7cf7d009a9a62efad3822a1c334660a40867b1b5bf",
+    "size": 11504,
+    "mode": "0o644",
+    "uid": 0,
+    "gid": 0
+  },
+  {
+    "path": "usr/share/xpra/www/index.html.gz",
+    "sha256": "f28cb641a9d8c0ba15bfe39bb218c0e6fa31527ac696f018fa49234b299781fe",
+    "size": 13489,
+    "mode": "0o644",
+    "uid": 0,
+    "gid": 0
+  },
+  {
+    "path": "usr/share/xpra/www/js/Client.js",
+    "sha256": "83efbcf962408432b5a78dd672dccbb816d9d064e48d5b03b0cdac21c625221e",
+    "size": 105367,
+    "mode": "0o644",
+    "uid": 0,
+    "gid": 0
+  },
+  {
+    "path": "usr/share/xpra/www/js/Client.js.br",
+    "sha256": "85d04bb37cf04af8656de8d5ca450068e7ad8badb97f7a0cb17d75074ae97f04",
+    "size": 26281,
+    "mode": "0o644",
+    "uid": 0,
+    "gid": 0
+  },
+  {
+    "path": "usr/share/xpra/www/js/Client.js.gz",
+    "sha256": "dee463955f2fc82c941c6f64434ec4b32abe33be07c6f1370287990356158261",
+    "size": 30521,
+    "mode": "0o644",
+    "uid": 0,
+    "gid": 0
+  },
+  {
+    "path": "home/workspace/download-packages.py",
+    "sha256": "a2f0f1147ac34e4b78ff7d1354946aa4d6d843d8bc106192f3b2082e2d2faaa2",
+    "size": 2096,
+    "uid": 1000,
+    "gid": 1000,
+    "mode": "0o664"
+  }
+]

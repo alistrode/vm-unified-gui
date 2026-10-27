@@ -1,0 +1,10 @@
+[Unit]
+Description=Read-only standard desktop geometry
+After=network.target
+[Service]
+User=workspace
+ExecStart=/usr/bin/python3 /srv/unified/modes/status_server.py
+Restart=on-failure
+RestartSec=3
+[Install]
+WantedBy=multi-user.target

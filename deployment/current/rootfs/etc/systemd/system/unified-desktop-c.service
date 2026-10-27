@@ -1,0 +1,22 @@
+[Unit]
+Description=Native independent Xfce desktop C outside containers
+After=unified-apps.service
+Requires=unified-apps.service
+[Service]
+User=workspace
+Environment=HOME=/srv/unified/state/desktops/c/home
+Environment=XDG_CONFIG_HOME=/srv/unified/state/desktops/c/home/.config
+Environment=XDG_DATA_HOME=/srv/unified/state/desktops/c/home/.local/share
+Environment=XDG_CACHE_HOME=/srv/unified/state/desktops/c/home/.cache
+Environment=XAUTHORITY=/srv/unified/state/auth/desktop-c-host
+Environment=XPRA_BATCH_MIN_DELAY=100
+ExecStart=/usr/bin/xpra start-desktop :103 --daemon=no --bind-tcp=127.0.0.1:8103 --sharing=yes --html=/usr/share/xpra/www --resize-display=off:1280x800@50 --xvfb="/usr/lib/xorg/Xorg -noreset -nolisten tcp -config /srv/unified/xorg-shared.conf -logfile /srv/unified/state/desktops/c/xorg.log +extension RANDR +extension RENDER" --start-child="dbus-run-session xfce4-session" --mdns=no --pulseaudio=no --webcam=no --printing=no --notifications=yes --exit-with-children=no --encoding=png --encodings=png --speed=100 --min-speed=100 --quality=100 --min-quality=100 --auto-refresh-delay=0 --keyboard-sync=no --bandwidth-limit=250000 --bandwidth-detection=no
+ExecStartPost=/bin/bash /srv/unified/modes/prepare-desktop-auth.sh c
+ExecStartPost=/usr/bin/python3 /srv/unified/modes/desktops.py start c
+TimeoutStartSec=180
+Restart=on-failure
+RestartSec=5
+MemoryMax=1024M
+Nice=5
+[Install]
+WantedBy=multi-user.target

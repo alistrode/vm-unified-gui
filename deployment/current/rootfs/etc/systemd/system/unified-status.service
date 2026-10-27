@@ -1,0 +1,10 @@
+[Unit]
+Description=Read-only container status endpoint
+After=docker.service
+[Service]
+User=workspace
+SupplementaryGroups=docker
+ExecStart=/usr/bin/python3 /srv/unified/web/status.py
+Restart=on-failure
+[Install]
+WantedBy=multi-user.target
