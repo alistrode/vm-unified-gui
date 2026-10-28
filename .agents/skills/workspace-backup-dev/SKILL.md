@@ -9,7 +9,7 @@ description: 当前真机部署、补丁与有效维护命令索引；先遵守�
 
 ## 当前入口与配置
 
-- 完整适配快照：release/Ubuntu-MultiContainer-GUI-B-compatible-complete-20261027.zip。
+- 完整适配快照：release/Ubuntu-MultiContainer-GUI-B-existing-files.zip.part*。
 - 当前源码：source/modes/；真机文件及版本清单：deployment/current/。
 - 当前 8 个服务、nginx、Xorg、桌面配置及已安装补丁均在 deployment/current/rootfs/ 中按绝对路径映射保存。
 - 安装源文件和维护脚本可能重启项目桌面/应用，运行前保存文档；不执行 VM 关机或其他 VM 管理操作。
@@ -71,3 +71,6 @@ description: 当前真机部署、补丁与有效维护命令索引；先遵守�
 ## 本次仓库清理
 
 已移除未部署到 B 机的旧网页工作台、旧 /workbench/ 启动器及其测试、模拟验证图片和记录、旧源码 ZIP。当前入口保持 B 机原启动器与 source/modes。ZIP 与展开的源码、配置、显示资源和维护文件同步发布。采集脚本只记录项目所需依赖，不采集整机软件清单或机器唯一标识。
+
+| [maintenance/package-existing-runtime.py](../../../maintenance/package-existing-runtime.py) | 将匹配 B 机已有清单的 Electron 运行时纳入完整快照并分卷，不含 Ubuntu/Docker 镜像 |
+| [maintenance/reassemble-package.py](../../../maintenance/reassemble-package.py) | 合并 release 中完整归档分卷 |

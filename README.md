@@ -26,7 +26,7 @@
 
 `unified-real-apps:24.04` 镜像保留在原 VM；其实际镜像内容 ID、项目挂载和应用包版本已记录，构建来源脚本已收录。Ubuntu 虚拟磁盘、Docker 镜像、缓存、用户文档及私有认证材料不嵌入本工程包。
 
-原目录另有 Electron 43.1.1 第三方运行时，当前 8 个项目服务不调用它；未重复打包其大型二进制。官方固定版本下载地址、74 个实际运行时文件的路径/大小/SHA-256 和许可证已收录。Xpra 上游：https://github.com/Xpra-org/xpra （GPL-2.0 系列）；HTML5 上游：https://github.com/Xpra-org/xpra-html5 （MPL-2.0）；Electron 上游：https://github.com/electron/electron （MIT 及其第三方许可）。不把第三方软件冒称为自有源码。
+原目录另有 Electron 43.1.1 第三方运行时，当前 8 个项目服务不调用它；本次补入其 74 项实际运行时文件，内容逐项匹配此前 B 机采集清单。官方固定版本下载地址、74 个实际运行时文件的路径/大小/SHA-256 和许可证已收录。Xpra 上游：https://github.com/Xpra-org/xpra （GPL-2.0 系列）；HTML5 上游：https://github.com/Xpra-org/xpra-html5 （MPL-2.0）；Electron 上游：https://github.com/electron/electron （MIT 及其第三方许可）。不把第三方软件冒称为自有源码。
 
 认证文件 guest-password.txt、SSH 私钥和 /srv/unified/state/auth 中的 Xauthority cookie 不上传。现有认证保留在原机；prepare-auth.sh 和 prepare-desktop-auth.sh 的生成逻辑已包含。
 
@@ -41,3 +41,11 @@
 已连接 B 机并直接读取指定 VM 内当前源码、网页、nginx、8 个服务与显示服务覆盖配置，25 个文件与当前部署快照内容一致。补齐此前仅在 ZIP 内、尚未展开入库的 133 个文件。移除未部署旧网页工作台、旧启动器、对应模拟测试和设计验证图、旧源码 ZIP。B 机文件、容器和服务未修改，本次没有重跑功能验收。
 
 采集与交付范围为本项目；导出脚本仅采集项目必需的宿主依赖，不采集整机软件清单、机器唯一标识或凭据。完整 ZIP 与本分支展开目录同步；仍依赖现有 VM 和镜像，验收限制如上。
+
+## 已有运行时补传
+
+Ubuntu 系统和 Docker 镜像按用户要求排除。Electron 43.1.1 的 74 个文件已从官方固定发行包补齐，全部逐项匹配 B 机留存文件清单的大小和摘要。运行时位于完整归档的 deployment/current/rootfs/srv/unified/console/electron/，保持上游许可与执行权限。
+
+GitHub 单文件大小限制要求完整归档分卷保存为 release/Ubuntu-MultiContainer-GUI-B-existing-files.zip.part001 等文件；运行 `python3 maintenance/reassemble-package.py` 合并后解压。不是 Ubuntu 或 Docker 镜像。现有部署快照仍依赖原 VM，不新增功能验收通过结论。
+
+本轮 B 机连接尚未恢复在线，项目其余目录尚待实时清点；本次运行时补传不表示全部现有文件已收齐。
